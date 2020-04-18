@@ -19,11 +19,11 @@ import java.util.List;
 import java.util.Collections;
 
 @InfiniteIndustryElements.ModElement.Tag
-public class MagmaSpongeBlock extends InfiniteIndustryElements.ModElement {
-	@ObjectHolder("infiniteindustry:magmasponge")
+public class HotMagmaSpongeBlock extends InfiniteIndustryElements.ModElement {
+	@ObjectHolder("infiniteindustry:hotmagmasponge")
 	public static final Block block = null;
-	public MagmaSpongeBlock(InfiniteIndustryElements instance) {
-		super(instance, 5);
+	public HotMagmaSpongeBlock(InfiniteIndustryElements instance) {
+		super(instance, 6);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class MagmaSpongeBlock extends InfiniteIndustryElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.SPONGE).sound(SoundType.CLOTH).hardnessAndResistance(0.6f, 0.6f).lightValue(0));
-			setRegistryName("magmasponge");
+			setRegistryName("hotmagmasponge");
 		}
 
 		@Override

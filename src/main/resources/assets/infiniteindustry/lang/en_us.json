@@ -1,5 +1,8 @@
 {
   "item.infiniteindustry.sapphire": "Sapphire",
   "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
-  "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe"
+  "block.infiniteindustry.silverore": "Silver Ore",
+  "block.infiniteindustry.hotmagmasponge": "Hot Magma Sponge",
+  "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
+  "block.infiniteindustry.magmasponge": "Magma Sponge"
 }

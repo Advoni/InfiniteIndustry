@@ -48,6 +48,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "HotMagmaSponge",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -56,7 +64,10 @@
     "en_us": {
       "item.infiniteindustry.sapphire": "Sapphire",
       "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
-      "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe"
+      "block.infiniteindustry.silverore": "Silver Ore",
+      "block.infiniteindustry.hotmagmasponge": "Hot Magma Sponge",
+      "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
+      "block.infiniteindustry.magmasponge": "Magma Sponge"
     }
   },
   "workspaceSettings": {
