@@ -8,13 +8,39 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "ObsidianIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObsidianPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObsidianPickaxeCrafting",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.infiniteindustry.sapphire": "Sapphire"
+      "item.infiniteindustry.sapphire": "Sapphire",
+      "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
+      "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe"
     }
   },
   "workspaceSettings": {
