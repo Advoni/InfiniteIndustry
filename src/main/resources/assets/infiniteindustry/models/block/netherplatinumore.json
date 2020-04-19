@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "infiniteindustry:blocks/nether_platinum_ore2",
+    "particle": "infiniteindustry:blocks/nether_platinum_ore2"
+  }
+}

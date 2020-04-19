@@ -328,6 +328,46 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "NetherCobaltOre",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NetherChromiumOre",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NetherSilverOre",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NetherCadmiumOre",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NetherPlatinumOre",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -352,6 +392,7 @@
       "item.infiniteindustry.leadingot": "Lead Ingot",
       "block.infiniteindustry.rubyore": "Ruby Ore",
       "item.infiniteindustry.sapphire": "Sapphire",
+      "block.infiniteindustry.nethersilverore": "Nether Silver Ore",
       "block.infiniteindustry.sapphireore": "Sapphire Ore",
       "item.infiniteindustry.aluminumdust": "Aluminum Dust",
       "block.infiniteindustry.platinumore": "Platinum Ore",
@@ -363,8 +404,12 @@
       "itemGroup.tabinfiniteindustry": "Infinite Industry",
       "item.infiniteindustry.nickelingot": "Nickel Ingot",
       "item.infiniteindustry.goldbroadsword": "Gold Broadsword",
+      "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
+      "block.infiniteindustry.nethercadmiumore": "Nether Cadmium Ore",
+      "block.infiniteindustry.netherplatinumore": "Nether Platinum Ore",
       "item.infiniteindustry.silveringot": "Silver Ingot",
       "item.infiniteindustry.silverdust": "Silver Dust",
+      "block.infiniteindustry.netherchromiumore": "Nether Chromium Ore",
       "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
       "item.infiniteindustry.uraniumingot": "Uranium Ingot",
       "item.infiniteindustry.platinumdust": "Platinum Dust",
