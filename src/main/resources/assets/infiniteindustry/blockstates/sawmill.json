@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "infiniteindustry:block/sawmill"
+    },
+    "facing=east": {
+      "model": "infiniteindustry:block/sawmill",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "infiniteindustry:block/sawmill",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "infiniteindustry:block/sawmill",
+      "y": 270
     }
   }
 }
