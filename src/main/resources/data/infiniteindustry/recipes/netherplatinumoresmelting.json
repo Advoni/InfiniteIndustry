@@ -1,0 +1,11 @@
+{
+  "group": "infiniteindustry",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "ingredient": {
+    "item": "infiniteindustry:netherplatinumore"
+  },
+  "result": {
+    "item": "infiniteindustry:platinumingot"
+  }
+}
