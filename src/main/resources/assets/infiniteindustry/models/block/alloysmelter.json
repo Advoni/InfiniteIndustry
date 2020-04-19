@@ -5,8 +5,8 @@
     "particle": "infiniteindustry:blocks/alloy_smelter_bottom",
     "alloy_smelter_bottom": "infiniteindustry:blocks/alloy_smelter_bottom",
     "alloy_smelter_side": "infiniteindustry:blocks/alloy_smelter_side",
-    "alloy_smelter_front": "infiniteindustry:blocks/alloy_smelter_back",
+    "alloy_smelter_front": "infiniteindustry:blocks/alloy_smelter_front",
     "alloy_smelter_top": "infiniteindustry:blocks/alloy_smelter_top",
-    "alloy_smelter_back": "infiniteindustry:blocks/alloy_smelter_front"
+    "alloy_smelter_back": "infiniteindustry:blocks/alloy_smelter_back"
   }
 }
