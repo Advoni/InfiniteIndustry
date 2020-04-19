@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Obsidian Ingot",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:InfiniteIndustry"
     },
     "stackSize": 64,
     "enchantability": 0,

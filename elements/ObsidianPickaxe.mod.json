@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Obsidian Pickaxe",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:InfiniteIndustry"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 4,

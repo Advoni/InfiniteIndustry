@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "infiniteindustry:blocks/peridot_ore",
+    "particle": "infiniteindustry:blocks/peridot_ore"
+  }
+}

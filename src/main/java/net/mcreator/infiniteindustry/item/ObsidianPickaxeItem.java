@@ -8,6 +8,7 @@ import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.infiniteindustry.itemgroup.InfiniteIndustryItemGroup;
 import net.mcreator.infiniteindustry.InfiniteIndustryElements;
 
 @InfiniteIndustryElements.ModElement.Tag
@@ -44,7 +45,7 @@ public class ObsidianPickaxeItem extends InfiniteIndustryElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -2.8f, new Item.Properties().group(null)) {
+		}, 1, -2.8f, new Item.Properties().group(InfiniteIndustryItemGroup.tab)) {
 		}.setRegistryName("obsidianpickaxe"));
 	}
 }

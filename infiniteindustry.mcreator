@@ -56,18 +56,266 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlatinumIngot",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Peridot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SilverDust",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperDust",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlatinumDust",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "InfiniteIndustry",
+      "type": "tab",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Aquamarine",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AluminumDust",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AluminumIngot",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AluminumOre",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadDust",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Pearl",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperIngotSmelting",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperOreBlasting",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PeridotOre",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObsidianDust",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NetherGoldOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NetherGoldIngotSmelting",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NetherGoldIngotBlasting",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.infiniteindustry.sapphire": "Sapphire",
+      "block.infiniteindustry.copperore": "Copper Ore",
+      "item.infiniteindustry.leaddust": "Lead Dust",
+      "item.infiniteindustry.aluminumingot": "Aluminum Ingot",
+      "item.infiniteindustry.platinumingot": "Platinum Ingot",
       "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
+      "item.infiniteindustry.aquamarine": "Aquamarine",
+      "block.infiniteindustry.peridotore": "Peridot Ore",
+      "block.infiniteindustry.magmasponge": "Magma Sponge",
+      "item.infiniteindustry.obsidiandust": "Obsidian Dust",
+      "block.infiniteindustry.aluminumore": "Aluminum Ore",
+      "item.infiniteindustry.copperdust": "Copper Dust",
+      "item.infiniteindustry.peridot": "Peridot",
+      "item.infiniteindustry.copperingot": "Copper Ingot",
+      "block.infiniteindustry.nethergoldore": "Nether Gold Ore",
+      "item.infiniteindustry.leadingot": "Lead Ingot",
+      "block.infiniteindustry.rubyore": "Ruby Ore",
+      "item.infiniteindustry.sapphire": "Sapphire",
+      "block.infiniteindustry.sapphireore": "Sapphire Ore",
+      "item.infiniteindustry.aluminumdust": "Aluminum Dust",
+      "block.infiniteindustry.platinumore": "Platinum Ore",
       "block.infiniteindustry.silverore": "Silver Ore",
+      "block.infiniteindustry.leadore": "Lead Ore",
       "block.infiniteindustry.hotmagmasponge": "Hot Magma Sponge",
+      "item.infiniteindustry.pearl": "Pearl",
+      "itemGroup.tabinfiniteindustry": "Infinite Industry",
+      "item.infiniteindustry.silveringot": "Silver Ingot",
+      "item.infiniteindustry.silverdust": "Silver Dust",
       "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
-      "block.infiniteindustry.magmasponge": "Magma Sponge"
+      "item.infiniteindustry.platinumdust": "Platinum Dust",
+      "item.infiniteindustry.ruby": "Ruby"
     }
   },
   "workspaceSettings": {

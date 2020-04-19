@@ -7,6 +7,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.infiniteindustry.itemgroup.InfiniteIndustryItemGroup;
 import net.mcreator.infiniteindustry.InfiniteIndustryElements;
 
 @InfiniteIndustryElements.ModElement.Tag
@@ -23,7 +24,7 @@ public class ObsidianIngotItem extends InfiniteIndustryElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(null).maxStackSize(64));
+			super(new Item.Properties().group(InfiniteIndustryItemGroup.tab).maxStackSize(64));
 			setRegistryName("obsidianingot");
 		}
 
