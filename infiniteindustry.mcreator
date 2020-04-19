@@ -448,6 +448,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Sawmill",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -472,6 +480,7 @@
       "item.infiniteindustry.antimonyingot": "Antimony Ingot",
       "advancements.advancedsmeltingadvancement.title": "Advanced Smelting",
       "item.infiniteindustry.leadingot": "Lead Ingot",
+      "block.infiniteindustry.sawmill": "Sawmill",
       "block.infiniteindustry.rubyore": "Ruby Ore",
       "item.infiniteindustry.sapphire": "Sapphire",
       "block.infiniteindustry.nethersilverore": "Nether Silver Ore",

@@ -1,0 +1,14 @@
+{
+  "parent": "infiniteindustry:custom/sawmill",
+  "textures": {
+    "all": "infiniteindustry:blocks/alloy_smelter_bottom",
+    "particle": "infiniteindustry:blocks/alloy_smelter_bottom",
+    "sawmillsawfront": "infiniteindustry:blocks/sawmillsawfront",
+    "alloy_smelter_bottom": "infiniteindustry:blocks/alloy_smelter_bottom",
+    "sawmill_top": "infiniteindustry:blocks/sawmill_top",
+    "sawmillsawside": "infiniteindustry:blocks/sawmillsawside",
+    "alloy_smelter_side": "infiniteindustry:blocks/alloy_smelter_side",
+    "sawmillsawtop": "infiniteindustry:blocks/sawmillsawtop",
+    "alloy_smelter_back": "infiniteindustry:blocks/alloy_smelter_back"
+  }
+}
