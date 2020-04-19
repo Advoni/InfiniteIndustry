@@ -480,6 +480,54 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "BasicProcessor",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdvancedProcessor",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EnhancedProcessor",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IntelligentProcessor",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RefinedProcessor",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UltimateProcessor",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -490,30 +538,34 @@
       "item.infiniteindustry.aluminumingot": "Aluminum Ingot",
       "item.infiniteindustry.platinumingot": "Platinum Ingot",
       "item.infiniteindustry.aquamarine": "Aquamarine",
+      "item.infiniteindustry.refinedprocessor": "Refined Processor",
       "item.infiniteindustry.obsidiandust": "Obsidian Dust",
       "item.infiniteindustry.copperdust": "Copper Dust",
       "item.infiniteindustry.peridot": "Peridot",
       "item.infiniteindustry.bronzeingot": "Bronze Ingot",
       "item.infiniteindustry.copperingot": "Copper Ingot",
       "item.infiniteindustry.antimonyingot": "Antimony Ingot",
+      "item.infiniteindustry.intelligentprocessor": "Intelligent Processor",
       "block.infiniteindustry.windturbine": "Wind Turbine",
       "block.infiniteindustry.rubyore": "Ruby Ore",
       "item.infiniteindustry.sapphire": "Sapphire",
       "block.infiniteindustry.sapphireore": "Sapphire Ore",
       "item.infiniteindustry.aluminumdust": "Aluminum Dust",
+      "item.infiniteindustry.basicprocessor": "Basic Processor",
       "block.infiniteindustry.endindiumore": "End Indium Ore",
       "block.infiniteindustry.leadore": "Lead Ore",
       "block.infiniteindustry.alloysmelter": "Alloy Smelter",
       "block.infiniteindustry.hotmagmasponge": "Hot Magma Sponge",
       "itemGroup.tabinfiniteindustry": "Infinite Industry",
-      "item.infiniteindustry.goldbroadsword": "Gold Broadsword",
-      "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
       "block.infiniteindustry.nethercadmiumore": "Nether Cadmium Ore",
+      "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
+      "item.infiniteindustry.goldbroadsword": "Gold Broadsword",
       "item.infiniteindustry.silverdust": "Silver Dust",
       "block.infiniteindustry.netherchromiumore": "Nether Chromium Ore",
       "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
       "item.infiniteindustry.ruby": "Ruby",
       "item.infiniteindustry.leaddust": "Lead Dust",
+      "item.infiniteindustry.ultimateprocessor": "Ultimate Processor",
       "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
       "block.infiniteindustry.peridotore": "Peridot Ore",
       "block.infiniteindustry.magmasponge": "Magma Sponge",
@@ -528,6 +580,7 @@
       "item.infiniteindustry.tiningot": "Tin Ingot",
       "advancements.advancedsmeltingadvancement.descr": "Craft an \"Alloy Smelter\"",
       "block.infiniteindustry.platinumore": "Platinum Ore",
+      "item.infiniteindustry.advancedprocessor": "Advanced Processor",
       "item.infiniteindustry.chromiumingot": "Chromium Ingot",
       "block.infiniteindustry.silverore": "Silver Ore",
       "item.infiniteindustry.pearl": "Pearl",
@@ -535,7 +588,8 @@
       "block.infiniteindustry.netherplatinumore": "Nether Platinum Ore",
       "item.infiniteindustry.silveringot": "Silver Ingot",
       "item.infiniteindustry.uraniumingot": "Uranium Ingot",
-      "item.infiniteindustry.platinumdust": "Platinum Dust"
+      "item.infiniteindustry.platinumdust": "Platinum Dust",
+      "item.infiniteindustry.enhancedprocessor": "Enhanced Processor"
     }
   },
   "workspaceSettings": {
