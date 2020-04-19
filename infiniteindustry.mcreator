@@ -400,6 +400,54 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "EndIndiumOre",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SapphireLoot",
+      "type": "loottable",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdvancedSmeltingReward",
+      "type": "loottable",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdvancedSmeltingAdvancement",
+      "type": "achievement",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -418,17 +466,22 @@
       "block.infiniteindustry.aluminumore": "Aluminum Ore",
       "item.infiniteindustry.copperdust": "Copper Dust",
       "item.infiniteindustry.peridot": "Peridot",
+      "item.infiniteindustry.bronzeingot": "Bronze Ingot",
       "item.infiniteindustry.copperingot": "Copper Ingot",
       "block.infiniteindustry.nethergoldore": "Nether Gold Ore",
       "item.infiniteindustry.antimonyingot": "Antimony Ingot",
+      "advancements.advancedsmeltingadvancement.title": "Advanced Smelting",
       "item.infiniteindustry.leadingot": "Lead Ingot",
       "block.infiniteindustry.rubyore": "Ruby Ore",
       "item.infiniteindustry.sapphire": "Sapphire",
       "block.infiniteindustry.nethersilverore": "Nether Silver Ore",
       "block.infiniteindustry.sapphireore": "Sapphire Ore",
       "item.infiniteindustry.aluminumdust": "Aluminum Dust",
+      "item.infiniteindustry.tiningot": "Tin Ingot",
+      "advancements.advancedsmeltingadvancement.descr": "Craft an \"Alloy Smelter\"",
       "block.infiniteindustry.platinumore": "Platinum Ore",
       "item.infiniteindustry.chromiumingot": "Chromium Ingot",
+      "block.infiniteindustry.endindiumore": "End Indium Ore",
       "block.infiniteindustry.silverore": "Silver Ore",
       "block.infiniteindustry.leadore": "Lead Ore",
       "block.infiniteindustry.alloysmelter": "Alloy Smelter",

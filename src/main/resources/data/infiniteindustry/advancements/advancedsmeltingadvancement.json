@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "infiniteindustry:bronzeingot"
+    },
+    "title": {
+      "translate": "advancements.advancedsmeltingadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.advancedsmeltingadvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancedsmeltingadvancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infiniteindustry:alloysmelter",
+            "count": {
+              "min": 1,
+              "max": 40
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "infiniteindustry:advancedsmeltingreward"
+    ]
+  },
+  "parent": "minecraft:story/smelt_iron"
+}

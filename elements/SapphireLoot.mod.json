@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "loottable",
+  "definition": {
+    "type": "Chest",
+    "pools": [
+      {
+        "minrolls": 1,
+        "maxrolls": 3,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Sapphire"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "name": "sapphireloot",
+    "namespace": "mod"
+  }
+}

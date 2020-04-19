@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "loottable",
+  "definition": {
+    "type": "Advancement reward",
+    "pools": [
+      {
+        "minrolls": 4,
+        "maxrolls": 4,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:BronzeIngot"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "name": "advancedsmeltingreward",
+    "namespace": "mod"
+  }
+}
