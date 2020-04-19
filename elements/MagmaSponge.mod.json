@@ -77,6 +77,12 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
+    "onBlockAdded": {
+      "name": "MagmaSpongeNeighbourBlockChanges"
+    },
+    "onNeighbourBlockChanges": {
+      "name": "MagmaSpongeNeighbourBlockChanges"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
