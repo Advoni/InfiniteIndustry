@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "infiniteindustry:blocks/nether_gold_ore",
-    "particle": "infiniteindustry:blocks/nether_gold_ore"
+    "all": "infiniteindustry:blocks/nether_gold_ore2",
+    "particle": "infiniteindustry:blocks/nether_gold_ore2"
   }
 }
