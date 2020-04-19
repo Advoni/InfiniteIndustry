@@ -420,6 +420,142 @@
           }
         ]
       }
+    },
+    {
+      "name": "AlloySmelter",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BasicProcessor",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EnhancedProcessor",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IntelligentProcessor",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ISawYouAdvancement",
+      "type": "achievement",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RefinedProcessor",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Sawmill",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdvancedSmeltingReward",
+      "type": "loottable",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdvancedSmeltingAdvancement",
+      "type": "achievement",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdvancedProcessor",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ISawYouReward",
+      "type": "loottable",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UltimateProcessor",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WindTurbine",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SapphireLoot",
+      "type": "loottable",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EndIndiumOre",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -427,45 +563,45 @@
   "language_map": {
     "en_us": {
       "block.infiniteindustry.copperore": "Copper Ore",
-      "item.infiniteindustry.leaddust": "Lead Dust",
       "item.infiniteindustry.aluminumingot": "Aluminum Ingot",
       "item.infiniteindustry.platinumingot": "Platinum Ingot",
-      "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
       "item.infiniteindustry.aquamarine": "Aquamarine",
-      "block.infiniteindustry.peridotore": "Peridot Ore",
-      "block.infiniteindustry.magmasponge": "Magma Sponge",
       "item.infiniteindustry.obsidiandust": "Obsidian Dust",
-      "block.infiniteindustry.aluminumore": "Aluminum Ore",
       "item.infiniteindustry.copperdust": "Copper Dust",
       "item.infiniteindustry.peridot": "Peridot",
       "item.infiniteindustry.copperingot": "Copper Ingot",
-      "block.infiniteindustry.nethergoldore": "Nether Gold Ore",
       "item.infiniteindustry.antimonyingot": "Antimony Ingot",
-      "item.infiniteindustry.leadingot": "Lead Ingot",
       "block.infiniteindustry.rubyore": "Ruby Ore",
       "item.infiniteindustry.sapphire": "Sapphire",
-      "block.infiniteindustry.nethersilverore": "Nether Silver Ore",
       "block.infiniteindustry.sapphireore": "Sapphire Ore",
       "item.infiniteindustry.aluminumdust": "Aluminum Dust",
-      "block.infiniteindustry.platinumore": "Platinum Ore",
-      "item.infiniteindustry.chromiumingot": "Chromium Ingot",
-      "block.infiniteindustry.silverore": "Silver Ore",
       "block.infiniteindustry.leadore": "Lead Ore",
       "block.infiniteindustry.hotmagmasponge": "Hot Magma Sponge",
-      "item.infiniteindustry.pearl": "Pearl",
       "itemGroup.tabinfiniteindustry": "Infinite Industry",
-      "item.infiniteindustry.nickelingot": "Nickel Ingot",
-      "item.infiniteindustry.goldbroadsword": "Gold Broadsword",
-      "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
       "block.infiniteindustry.nethercadmiumore": "Nether Cadmium Ore",
-      "block.infiniteindustry.netherplatinumore": "Nether Platinum Ore",
-      "item.infiniteindustry.silveringot": "Silver Ingot",
+      "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
+      "item.infiniteindustry.goldbroadsword": "Gold Broadsword",
       "item.infiniteindustry.silverdust": "Silver Dust",
       "block.infiniteindustry.netherchromiumore": "Nether Chromium Ore",
       "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
+      "item.infiniteindustry.ruby": "Ruby",
+      "item.infiniteindustry.leaddust": "Lead Dust",
+      "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
+      "block.infiniteindustry.peridotore": "Peridot Ore",
+      "block.infiniteindustry.magmasponge": "Magma Sponge",
+      "block.infiniteindustry.aluminumore": "Aluminum Ore",
+      "block.infiniteindustry.nethergoldore": "Nether Gold Ore",
+      "item.infiniteindustry.leadingot": "Lead Ingot",
+      "block.infiniteindustry.nethersilverore": "Nether Silver Ore",
+      "block.infiniteindustry.platinumore": "Platinum Ore",
+      "item.infiniteindustry.chromiumingot": "Chromium Ingot",
+      "block.infiniteindustry.silverore": "Silver Ore",
+      "item.infiniteindustry.pearl": "Pearl",
+      "item.infiniteindustry.nickelingot": "Nickel Ingot",
+      "block.infiniteindustry.netherplatinumore": "Nether Platinum Ore",
+      "item.infiniteindustry.silveringot": "Silver Ingot",
       "item.infiniteindustry.uraniumingot": "Uranium Ingot",
-      "item.infiniteindustry.platinumdust": "Platinum Dust",
-      "item.infiniteindustry.ruby": "Ruby"
+      "item.infiniteindustry.platinumdust": "Platinum Dust"
     }
   },
   "workspaceSettings": {

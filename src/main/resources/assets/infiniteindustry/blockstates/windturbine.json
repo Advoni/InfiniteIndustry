@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "infiniteindustry:block/windturbine"
+    },
+    "facing=east": {
+      "model": "infiniteindustry:block/windturbine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "infiniteindustry:block/windturbine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "infiniteindustry:block/windturbine",
+      "y": 270
+    }
+  }
+}

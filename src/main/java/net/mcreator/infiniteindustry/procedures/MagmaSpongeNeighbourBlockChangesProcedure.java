@@ -1,16 +1,11 @@
 package net.mcreator.infiniteindustry.procedures;
 
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.block.Blocks;
-
-import net.mcreator.infiniteindustry.block.HotMagmaSpongeBlock;
-import net.mcreator.infiniteindustry.InfiniteIndustryElements;
-
 @InfiniteIndustryElements.ModElement.Tag
 public class MagmaSpongeNeighbourBlockChangesProcedure extends InfiniteIndustryElements.ModElement {
+
 	public MagmaSpongeNeighbourBlockChangesProcedure(InfiniteIndustryElements instance) {
 		super(instance, 49);
+
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -30,10 +25,12 @@ public class MagmaSpongeNeighbourBlockChangesProcedure extends InfiniteIndustryE
 			System.err.println("Failed to load dependency world for procedure MagmaSpongeNeighbourBlockChanges!");
 			return;
 		}
+
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		boolean foundA = false;
 		boolean foundB = false;
 		if ((((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == Blocks.LAVA.getDefaultState().getBlock())
@@ -92,5 +89,7 @@ public class MagmaSpongeNeighbourBlockChangesProcedure extends InfiniteIndustryE
 				}
 			}
 		}
+
 	}
+
 }

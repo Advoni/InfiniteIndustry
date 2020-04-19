@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "infiniteindustry:block/alloysmelter"
+    },
+    "facing=east": {
+      "model": "infiniteindustry:block/alloysmelter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "infiniteindustry:block/alloysmelter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "infiniteindustry:block/alloysmelter",
+      "y": 270
+    }
+  }
+}

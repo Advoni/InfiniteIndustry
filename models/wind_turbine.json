@@ -1,0 +1,228 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "alloy_smelter_bottom": "minecraft:blocks/alloy_smelter_bottom",
+        "sawmill_top": "minecraft:blocks/sawmill_top",
+        "alloy_smelter_side": "minecraft:blocks/alloy_smelter_side",
+        "wind_turbine_front": "minecraft:blocks/wind_turbine_front",
+        "alloy_smelter_back": "minecraft:blocks/alloy_smelter_back"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 1, 16 ], 
+            "faces": {
+                "north": { "texture": "#alloy_smelter_back", "uv": [ 0, 15, 16, 16 ] },
+                "east": { "texture": "#alloy_smelter_side", "uv": [ 0, 15, 16, 16 ] },
+                "south": { "texture": "#wind_turbine_front", "uv": [ 0, 15, 16, 16 ] },
+                "west": { "texture": "#alloy_smelter_side", "uv": [ 0, 15, 16, 16 ] },
+                "up": { "texture": "#alloy_smelter_bottom", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#alloy_smelter_bottom", "uv": [ 0, 0, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 1, 0 ], 
+            "to": [ 1, 15, 16 ], 
+            "faces": {
+                "north": { "texture": "#alloy_smelter_back", "uv": [ 15, 1, 16, 15 ] },
+                "east": { "texture": "#alloy_smelter_side", "uv": [ 0, 1, 16, 15 ] },
+                "south": { "texture": "#wind_turbine_front", "uv": [ 0, 1, 1, 15 ] },
+                "west": { "texture": "#alloy_smelter_side", "uv": [ 0, 1, 16, 15 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 15, 1, 0 ], 
+            "to": [ 16, 15, 16 ], 
+            "faces": {
+                "north": { "texture": "#alloy_smelter_back", "uv": [ 0, 1, 1, 15 ] },
+                "east": { "texture": "#alloy_smelter_side", "uv": [ 0, 1, 16, 15 ] },
+                "south": { "texture": "#wind_turbine_front", "uv": [ 15, 1, 16, 15 ] },
+                "west": { "texture": "#alloy_smelter_side", "uv": [ 0, 1, 16, 15 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 15, 0 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#alloy_smelter_back", "uv": [ 0, 0, 16, 1 ] },
+                "east": { "texture": "#alloy_smelter_side", "uv": [ 0, 0, 16, 1 ] },
+                "south": { "texture": "#wind_turbine_front", "uv": [ 0, 0, 16, 1 ] },
+                "west": { "texture": "#alloy_smelter_side", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#sawmill_top", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#sawmill_top", "uv": [ 0, 0, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 1, 1, 0 ], 
+            "to": [ 15, 15, 1 ], 
+            "faces": {
+                "north": { "texture": "#alloy_smelter_back", "uv": [ 1, 1, 15, 15 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 1, 1, 13 ], 
+            "to": [ 15, 15, 14 ], 
+            "faces": {
+                "south": { "texture": "#wind_turbine_front", "uv": [ 1, 1, 15, 15 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 1, 1, 14 ], 
+            "to": [ 2, 5, 16 ], 
+            "faces": {
+                "east": { "texture": "#alloy_smelter_side", "uv": [ 0, 11, 2, 15 ] },
+                "south": { "texture": "#wind_turbine_front", "uv": [ 1, 11, 2, 15 ] },
+                "up": { "texture": "#alloy_smelter_bottom", "uv": [ 1, 14, 2, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 1, 11, 14 ], 
+            "to": [ 2, 15, 16 ], 
+            "faces": {
+                "east": { "texture": "#alloy_smelter_side", "uv": [ 0, 1, 2, 5 ] },
+                "south": { "texture": "#wind_turbine_front", "uv": [ 1, 1, 2, 5 ] },
+                "down": { "texture": "#sawmill_top", "uv": [ 1, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 14, 11, 14 ], 
+            "to": [ 15, 15, 16 ], 
+            "faces": {
+                "south": { "texture": "#wind_turbine_front", "uv": [ 14, 1, 15, 5 ] },
+                "west": { "texture": "#alloy_smelter_side", "uv": [ 14, 1, 16, 5 ] },
+                "down": { "texture": "#sawmill_top", "uv": [ 14, 0, 15, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 14, 1, 14 ], 
+            "to": [ 15, 5, 16 ], 
+            "faces": {
+                "south": { "texture": "#wind_turbine_front", "uv": [ 14, 11, 15, 15 ] },
+                "west": { "texture": "#alloy_smelter_side", "uv": [ 14, 11, 16, 15 ] },
+                "up": { "texture": "#alloy_smelter_bottom", "uv": [ 14, 14, 15, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 11, 1, 14 ], 
+            "to": [ 14, 2, 16 ], 
+            "faces": {
+                "south": { "texture": "#wind_turbine_front", "uv": [ 11, 14, 14, 15 ] },
+                "west": { "texture": "#alloy_smelter_side", "uv": [ 14, 14, 16, 15 ] },
+                "up": { "texture": "#alloy_smelter_bottom", "uv": [ 11, 14, 14, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 2, 1, 14 ], 
+            "to": [ 5, 2, 16 ], 
+            "faces": {
+                "east": { "texture": "#alloy_smelter_side", "uv": [ 0, 14, 2, 15 ] },
+                "south": { "texture": "#wind_turbine_front", "uv": [ 2, 14, 5, 15 ] },
+                "up": { "texture": "#alloy_smelter_bottom", "uv": [ 2, 14, 5, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 2, 14, 14 ], 
+            "to": [ 5, 15, 16 ], 
+            "faces": {
+                "east": { "texture": "#alloy_smelter_side", "uv": [ 0, 1, 2, 2 ] },
+                "south": { "texture": "#wind_turbine_front", "uv": [ 2, 1, 5, 2 ] },
+                "down": { "texture": "#sawmill_top", "uv": [ 2, 0, 5, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 11, 14, 14 ], 
+            "to": [ 14, 15, 16 ], 
+            "faces": {
+                "south": { "texture": "#wind_turbine_front", "uv": [ 11, 0, 14, 1 ] },
+                "west": { "texture": "#alloy_smelter_side", "uv": [ 14, 1, 16, 2 ] },
+                "down": { "texture": "#sawmill_top", "uv": [ 11, 0, 14, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 2, 2, 14 ], 
+            "to": [ 3, 3, 16 ], 
+            "faces": {
+                "east": { "texture": "#alloy_smelter_side", "uv": [ 0, 13, 2, 14 ] },
+                "south": { "texture": "#wind_turbine_front", "uv": [ 2, 13, 3, 14 ] },
+                "up": { "texture": "#alloy_smelter_bottom", "uv": [ 2, 14, 3, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 13, 2, 14 ], 
+            "to": [ 14, 3, 16 ], 
+            "faces": {
+                "south": { "texture": "#wind_turbine_front", "uv": [ 13, 13, 14, 14 ] },
+                "west": { "texture": "#alloy_smelter_side", "uv": [ 14, 13, 16, 14 ] },
+                "up": { "texture": "#alloy_smelter_bottom", "uv": [ 13, 14, 14, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 13, 13, 14 ], 
+            "to": [ 14, 14, 16 ], 
+            "faces": {
+                "south": { "texture": "#wind_turbine_front", "uv": [ 13, 2, 14, 3 ] },
+                "west": { "texture": "#alloy_smelter_side", "uv": [ 14, 2, 16, 3 ] },
+                "down": { "texture": "#sawmill_top", "uv": [ 13, 0, 14, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 2, 13, 14 ], 
+            "to": [ 3, 14, 16 ], 
+            "faces": {
+                "east": { "texture": "#alloy_smelter_side", "uv": [ 0, 2, 2, 3 ] },
+                "south": { "texture": "#wind_turbine_front", "uv": [ 2, 2, 3, 3 ] },
+                "down": { "texture": "#sawmill_top", "uv": [ 2, 0, 3, 2 ] }
+            }
+        }
+    ]
+}
