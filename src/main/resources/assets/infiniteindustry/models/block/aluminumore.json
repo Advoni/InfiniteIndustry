@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "infiniteindustry:blocks/aluminum_ore",
-    "particle": "infiniteindustry:blocks/aluminum_ore"
+    "all": "infiniteindustry:blocks/aluminumore2",
+    "particle": "infiniteindustry:blocks/aluminumore2"
   }
 }
