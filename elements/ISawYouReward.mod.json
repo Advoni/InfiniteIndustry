@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "loottable",
+  "definition": {
+    "type": "Advancement reward",
+    "pools": [
+      {
+        "minrolls": 16,
+        "maxrolls": 16,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.LOG#0"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "name": "isawyoureward",
+    "namespace": "mod"
+  }
+}

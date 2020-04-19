@@ -464,6 +464,22 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "ISawYouReward",
+      "type": "loottable",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ISawYouAdvancement",
+      "type": "achievement",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -490,9 +506,9 @@
       "block.infiniteindustry.alloysmelter": "Alloy Smelter",
       "block.infiniteindustry.hotmagmasponge": "Hot Magma Sponge",
       "itemGroup.tabinfiniteindustry": "Infinite Industry",
-      "block.infiniteindustry.nethercadmiumore": "Nether Cadmium Ore",
-      "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
       "item.infiniteindustry.goldbroadsword": "Gold Broadsword",
+      "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
+      "block.infiniteindustry.nethercadmiumore": "Nether Cadmium Ore",
       "item.infiniteindustry.silverdust": "Silver Dust",
       "block.infiniteindustry.netherchromiumore": "Nether Chromium Ore",
       "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
@@ -504,8 +520,10 @@
       "block.infiniteindustry.aluminumore": "Aluminum Ore",
       "block.infiniteindustry.nethergoldore": "Nether Gold Ore",
       "advancements.advancedsmeltingadvancement.title": "Advanced Smelting",
+      "advancements.isawyouadvancement.descr": "Craft a \"Sawmill\"",
       "item.infiniteindustry.leadingot": "Lead Ingot",
       "block.infiniteindustry.sawmill": "Sawmill",
+      "advancements.isawyouadvancement.title": "I Saw You ",
       "block.infiniteindustry.nethersilverore": "Nether Silver Ore",
       "item.infiniteindustry.tiningot": "Tin Ingot",
       "advancements.advancedsmeltingadvancement.descr": "Craft an \"Alloy Smelter\"",

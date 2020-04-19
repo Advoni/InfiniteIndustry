@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "I Saw You ",
+    "achievementDescription": "Craft a \"Sawmill\"",
+    "achievementIcon": {
+      "value": "Blocks.PLANKS#0"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "ISawYouReward"
+    ],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"29\" y=\"78\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">40</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Sawmill</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

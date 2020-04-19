@@ -2,13 +2,13 @@
   "display": {
     "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "infiniteindustry:bronzeingot"
+      "item": "minecraft:oak_planks"
     },
     "title": {
-      "translate": "advancements.advancedsmeltingadvancement.title"
+      "translate": "advancements.isawyouadvancement.title"
     },
     "description": {
-      "translate": "advancements.advancedsmeltingadvancement.descr"
+      "translate": "advancements.isawyouadvancement.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,14 +16,14 @@
     "hidden": false
   },
   "criteria": {
-    "advancedsmeltingadvancement": {
+    "isawyouadvancement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "infiniteindustry:alloysmelter",
+            "item": "infiniteindustry:sawmill",
             "count": {
-              "min": 1,
+              "min": 0,
               "max": 40
             }
           }
@@ -34,7 +34,7 @@
   "rewards": {
     "experience": 0,
     "loot": [
-      "infiniteindustry:advancedsmeltingreward"
+      "infiniteindustry:isawyoureward"
     ]
   }
 }
