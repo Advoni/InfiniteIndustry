@@ -1,18 +1,70 @@
 
 package net.mcreator.infiniteindustry.block;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.network.NetworkHooks;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.World;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.math.BlockRayTraceResult;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Rotation;
+import net.minecraft.util.NonNullList;
+import net.minecraft.util.Mirror;
+import net.minecraft.util.Hand;
+import net.minecraft.util.Direction;
+import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.tileentity.TileEntityType;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.tileentity.LockableLootTileEntity;
+import net.minecraft.state.StateContainer;
+import net.minecraft.state.DirectionProperty;
+import net.minecraft.network.play.server.SUpdateTileEntityPacket;
+import net.minecraft.network.PacketBuffer;
+import net.minecraft.network.NetworkManager;
+import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItemUseContext;
+import net.minecraft.item.BlockItem;
+import net.minecraft.inventory.container.INamedContainerProvider;
+import net.minecraft.inventory.container.Container;
+import net.minecraft.inventory.ItemStackHelper;
+import net.minecraft.inventory.InventoryHelper;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.HorizontalBlock;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import net.mcreator.infiniteindustry.itemgroup.InfiniteIndustryItemGroup;
+import net.mcreator.infiniteindustry.gui.CrusherGUIGui;
+import net.mcreator.infiniteindustry.InfiniteIndustryElements;
+
+import java.util.List;
+import java.util.Collections;
+
+import io.netty.buffer.Unpooled;
+
 @InfiniteIndustryElements.ModElement.Tag
 public class CrusherBlock extends InfiniteIndustryElements.ModElement {
-
 	@ObjectHolder("infiniteindustry:crusher")
 	public static final Block block = null;
-
 	@ObjectHolder("infiniteindustry:crusher")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-
 	public CrusherBlock(InfiniteIndustryElements instance) {
 		super(instance, 117);
-
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -27,18 +79,11 @@ public class CrusherBlock extends InfiniteIndustryElements.ModElement {
 	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
 		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("crusher"));
 	}
-
 	public static class CustomBlock extends Block {
-
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
-
 		public CustomBlock() {
-			super(
-
-					Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 30f).lightValue(0));
-
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 30f).lightValue(0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-
 			setRegistryName("crusher");
 		}
 
@@ -90,7 +135,6 @@ public class CrusherBlock extends InfiniteIndustryElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-
 			if (entity instanceof ServerPlayerEntity) {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
@@ -105,7 +149,6 @@ public class CrusherBlock extends InfiniteIndustryElements.ModElement {
 					}
 				}, new BlockPos(x, y, z));
 			}
-
 			return true;
 		}
 
@@ -140,7 +183,6 @@ public class CrusherBlock extends InfiniteIndustryElements.ModElement {
 					InventoryHelper.dropInventoryItems(world, pos, (CustomTileEntity) tileentity);
 					world.updateComparatorOutputLevel(pos, this);
 				}
-
 				super.onReplaced(state, world, pos, newState, isMoving);
 			}
 		}
@@ -158,13 +200,10 @@ public class CrusherBlock extends InfiniteIndustryElements.ModElement {
 			else
 				return 0;
 		}
-
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity {
-
 		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(6, ItemStack.EMPTY);
-
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}
@@ -250,7 +289,5 @@ public class CrusherBlock extends InfiniteIndustryElements.ModElement {
 		protected void setItems(NonNullList<ItemStack> stacks) {
 			this.stacks = stacks;
 		}
-
 	}
-
 }
