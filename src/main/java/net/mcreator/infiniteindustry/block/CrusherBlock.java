@@ -49,7 +49,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.infiniteindustry.itemgroup.InfiniteIndustryItemGroup;
-import net.mcreator.infiniteindustry.gui.SawmillGUIGui;
+import net.mcreator.infiniteindustry.gui.CrusherGUIGui;
 import net.mcreator.infiniteindustry.InfiniteIndustryElements;
 
 import java.util.List;
@@ -58,13 +58,13 @@ import java.util.Collections;
 import io.netty.buffer.Unpooled;
 
 @InfiniteIndustryElements.ModElement.Tag
-public class SawmillBlock extends InfiniteIndustryElements.ModElement {
-	@ObjectHolder("infiniteindustry:sawmill")
+public class CrusherBlock extends InfiniteIndustryElements.ModElement {
+	@ObjectHolder("infiniteindustry:crusher")
 	public static final Block block = null;
-	@ObjectHolder("infiniteindustry:sawmill")
+	@ObjectHolder("infiniteindustry:crusher")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public SawmillBlock(InfiniteIndustryElements instance) {
-		super(instance, 56);
+	public CrusherBlock(InfiniteIndustryElements instance) {
+		super(instance, 117);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -77,14 +77,14 @@ public class SawmillBlock extends InfiniteIndustryElements.ModElement {
 
 	@SubscribeEvent
 	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("sawmill"));
+		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("crusher"));
 	}
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 30f).lightValue(0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("sawmill");
+			setRegistryName("crusher");
 		}
 
 		@OnlyIn(Dist.CLIENT)
@@ -139,12 +139,12 @@ public class SawmillBlock extends InfiniteIndustryElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Sawmill");
+						return new StringTextComponent("Crusher");
 					}
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new SawmillGUIGui.GuiContainerMod(id, inventory,
+						return new CrusherGUIGui.GuiContainerMod(id, inventory,
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
@@ -203,7 +203,7 @@ public class SawmillBlock extends InfiniteIndustryElements.ModElement {
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(6, ItemStack.EMPTY);
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}
@@ -239,7 +239,7 @@ public class SawmillBlock extends InfiniteIndustryElements.ModElement {
 
 		@Override
 		public int getSizeInventory() {
-			return 9;
+			return 6;
 		}
 
 		@Override
@@ -262,7 +262,7 @@ public class SawmillBlock extends InfiniteIndustryElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("sawmill");
+			return new StringTextComponent("crusher");
 		}
 
 		@Override
@@ -272,12 +272,12 @@ public class SawmillBlock extends InfiniteIndustryElements.ModElement {
 
 		@Override
 		public Container createMenu(int id, PlayerInventory player) {
-			return new SawmillGUIGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
+			return new CrusherGUIGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
 		}
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Sawmill");
+			return new StringTextComponent("Crusher");
 		}
 
 		@Override

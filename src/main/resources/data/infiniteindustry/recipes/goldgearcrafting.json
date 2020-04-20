@@ -1,0 +1,27 @@
+{
+  "group": "infiniteindustry",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "infiniteindustry:goldstick"
+    },
+    "3": {
+      "item": "infiniteindustry:goldstick"
+    },
+    "5": {
+      "item": "infiniteindustry:goldstick"
+    },
+    "7": {
+      "item": "infiniteindustry:goldstick"
+    }
+  },
+  "result": {
+    "item": "infiniteindustry:goldgear",
+    "count": 1
+  }
+}

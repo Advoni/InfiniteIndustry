@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ironstick",
+    "texture": "bucket_blood",
     "customModelName": "Normal",
-    "name": "Iron Stick",
+    "name": "Blood Bucket",
     "creativeTab": {
       "value": "CUSTOM:InfiniteIndustry"
     },

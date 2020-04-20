@@ -2,10 +2,13 @@
   "mappings": {
     "default": {
       "map": {
+        "crusher_front1": "crusherfrontnew",
+        "sawmillsawfront": "sawmillsawfront",
         "alloy_smelter_bottom": "alloy_smelter_bottom",
+        "sawmill_top": "sawmill_top",
+        "sawmillsawside": "sawmillsawside",
         "alloy_smelter_side": "alloy_smelter_side",
-        "alloy_smelter_front": "alloy_smelter_front",
-        "alloy_smelter_top": "sawmill_top",
+        "sawmillsawtop": "sawmillsawtop",
         "alloy_smelter_back": "alloy_smelter_back"
       },
       "name": "default"

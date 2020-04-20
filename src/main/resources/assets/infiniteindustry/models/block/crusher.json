@@ -1,15 +1,16 @@
 {
-  "parent": "infiniteindustry:custom/sawmilljason1",
+  "parent": "infiniteindustry:custom/crusherjason1",
   "textures": {
     "all": "infiniteindustry:blocks/alloy_smelter_bottom",
     "particle": "infiniteindustry:blocks/alloy_smelter_bottom",
     "crusher_front1": "infiniteindustry:blocks/crusherfrontnew",
-    "sawmillsawfront": "infiniteindustry:blocks/sawmillsawfront",
     "alloy_smelter_bottom": "infiniteindustry:blocks/alloy_smelter_bottom",
+    "crusher_side3": "infiniteindustry:blocks/crusher_side3",
     "sawmill_top": "infiniteindustry:blocks/sawmill_top",
-    "sawmillsawside": "infiniteindustry:blocks/sawmillsawside",
+    "crusher_side2": "infiniteindustry:blocks/crusher_side2",
+    "crusher_side1": "infiniteindustry:blocks/crusher_side1",
+    "crusher_front": "infiniteindustry:blocks/crusher_front",
     "alloy_smelter_side": "infiniteindustry:blocks/alloy_smelter_side",
-    "sawmillsawtop": "infiniteindustry:blocks/sawmillsawtop",
     "alloy_smelter_back": "infiniteindustry:blocks/alloy_smelter_back"
   }
 }
