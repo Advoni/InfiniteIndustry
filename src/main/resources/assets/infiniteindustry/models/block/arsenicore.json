@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "infiniteindustry:blocks/arsenic_ore",
+    "particle": "infiniteindustry:blocks/arsenic_ore"
+  }
+}

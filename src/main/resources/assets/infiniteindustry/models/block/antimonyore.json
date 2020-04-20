@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infiniteindustry:blocks/antimony_ore",
+    "up": "infiniteindustry:blocks/antimony_ore",
+    "north": "infiniteindustry:blocks/antimony_ore",
+    "east": "infiniteindustry:blocks/antimony_ore",
+    "south": "infiniteindustry:blocks/antimony_ore",
+    "west": "infiniteindustry:blocks/antimony_ore",
+    "particle": "infiniteindustry:blocks/antimony_ore"
+  }
+}

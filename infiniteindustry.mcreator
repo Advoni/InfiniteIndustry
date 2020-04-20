@@ -721,21 +721,229 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "IronStick",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronStickCrafting",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronCasing",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronReinforcement",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AntimonyOre",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AntimonyOreSmelting",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AntimonyDust",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TungstenIngot",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EndTungstenOre",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronDust",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Sulfur",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Selenium",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Phosphorus",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Iodine",
+      "type": "item",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Boron",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldDust",
+      "type": "item",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Arsenic",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ArsenicOre",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NetherArsenicOre",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NetherCoalOre",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EndDiamondOre",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TitaniumIngot",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EndTitaniumOre",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TitaniumOreSmelting",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.minecraft.tipped_arrow.effect.test": "Arrow of Test",
       "block.infiniteindustry.copperore": "Copper Ore",
+      "item.minecraft.tipped_arrow.effect.test": "Arrow of Test",
+      "block.infiniteindustry.endtitaniumore": "End Titanium Ore",
       "item.infiniteindustry.aluminumingot": "Aluminum Ingot",
       "item.infiniteindustry.platinumingot": "Platinum Ingot",
       "block.infiniteindustry.advancedpistonrod": "Advanced Piston Rod",
       "item.infiniteindustry.aquamarine": "Aquamarine",
+      "item.infiniteindustry.tungsteningot": "Tungsten Ingot",
+      "block.infiniteindustry.ironreinforcement": "Iron Reinforcement",
+      "block.infiniteindustry.arsenicore": "Arsenic Ore",
       "item.infiniteindustry.refinedprocessor": "Refined Processor",
+      "item.infiniteindustry.boron": "Boron",
       "item.infiniteindustry.obsidiandust": "Obsidian Dust",
+      "item.infiniteindustry.sulfur": "Sulfur",
       "item.infiniteindustry.copperdust": "Copper Dust",
+      "block.infiniteindustry.endtungstenore": "End Tungsten Ore",
+      "item.infiniteindustry.selenium": "Selenium",
       "item.infiniteindustry.peridot": "Peridot",
       "item.infiniteindustry.bronzeingot": "Bronze Ingot",
       "item.infiniteindustry.copperingot": "Copper Ingot",
@@ -753,6 +961,7 @@
       "block.infiniteindustry.leadore": "Lead Ore",
       "block.infiniteindustry.alloysmelter": "Alloy Smelter",
       "block.infiniteindustry.hotmagmasponge": "Hot Magma Sponge",
+      "item.infiniteindustry.antimonydust": "Antimony Dust",
       "itemGroup.tabinfiniteindustry": "Infinite Industry",
       "item.infiniteindustry.goldbroadsword": "Gold Broadsword",
       "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
@@ -760,6 +969,7 @@
       "item.infiniteindustry.cobaltingot": "Cobalt Ingot",
       "item.minecraft.splash_potion.effect.test": "Splash Test",
       "item.minecraft.lingering_potion.effect.test": "Lingering Test",
+      "item.infiniteindustry.titaniumingot": "Titanium Ingot",
       "item.infiniteindustry.silverdust": "Silver Dust",
       "item.infiniteindustry.cadmiumingot": "Cadmium Ingot",
       "block.infiniteindustry.netherchromiumore": "Nether Chromium Ore",
@@ -770,14 +980,20 @@
       "fluid.sulfuricacid": "SulfuricAcid",
       "block.infiniteindustry.tinore": "Tin Ore",
       "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
+      "block.infiniteindustry.tungstenore": "Tungsten Ore",
       "block.infiniteindustry.peridotore": "Peridot Ore",
       "block.infiniteindustry.magmasponge": "Magma Sponge",
       "block.infiniteindustry.aluminumore": "Aluminum Ore",
+      "block.infiniteindustry.nethercoalore": "Nether Coal Ore",
+      "item.infiniteindustry.phosphorus": "Phosphorus",
       "block.infiniteindustry.nethergoldore": "Nether Gold Ore",
       "block.infiniteindustry.spawnsulfurlake1": "Spawn Sulfur Lake1",
+      "item.infiniteindustry.ironstick": "Iron Stick",
       "advancements.advancedsmeltingadvancement.title": "Advanced Smelting",
       "advancements.isawyouadvancement.descr": "Craft a \"Sawmill\"",
+      "block.infiniteindustry.netherarsenicore": "Nether Arsenic Ore",
       "item.infiniteindustry.sulfuricacid_bucket": "SulfuricAcid Bucket",
+      "block.infiniteindustry.antimonyore": "Antimony Ore",
       "item.infiniteindustry.leadingot": "Lead Ingot",
       "block.infiniteindustry.sawmill": "Sawmill",
       "advancements.isawyouadvancement.title": "I Saw You ",
@@ -786,17 +1002,23 @@
       "advancements.advancedsmeltingadvancement.descr": "Craft an \"Alloy Smelter\"",
       "block.infiniteindustry.platinumore": "Platinum Ore",
       "item.infiniteindustry.advancedprocessor": "Advanced Processor",
+      "block.infiniteindustry.enddiamondore": "End Diamond Ore",
       "item.infiniteindustry.chromiumingot": "Chromium Ingot",
       "block.infiniteindustry.silverore": "Silver Ore",
       "block.infiniteindustry.advancedpistonblock": "Advanced Piston",
+      "item.infiniteindustry.iodine": "Iodine",
+      "item.infiniteindustry.arsenic": "Arsenic",
       "item.infiniteindustry.pearl": "Pearl",
       "item.infiniteindustry.nickelingot": "Nickel Ingot",
       "block.infiniteindustry.netherplatinumore": "Nether Platinum Ore",
       "block.infiniteindustry.advancedpistonbody": "Advanced Piston",
+      "block.infiniteindustry.ironcasing": "Iron Casing",
+      "item.infiniteindustry.irondust": "Iron Dust",
       "item.infiniteindustry.silveringot": "Silver Ingot",
       "item.infiniteindustry.uraniumingot": "Uranium Ingot",
       "item.infiniteindustry.platinumdust": "Platinum Dust",
-      "item.infiniteindustry.enhancedprocessor": "Enhanced Processor"
+      "item.infiniteindustry.enhancedprocessor": "Enhanced Processor",
+      "item.infiniteindustry.golddust": "Gold Dust"
     }
   },
   "workspaceSettings": {
