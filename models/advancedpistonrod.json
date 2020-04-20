@@ -1,0 +1,19 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "piston_top": "minecraft:blocks/piston_top"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 6, 6, 4 ], 
+            "to": [ 10, 10, 20 ], 
+            "faces": {
+                "east": { "texture": "#piston_top", "uv": [ 0, 6, 16, 10 ] },
+                "west": { "texture": "#piston_top", "uv": [ 0, 6, 16, 10 ] },
+                "up": { "texture": "#piston_top", "uv": [ 6, 0, 10, 16 ], "rotation": 180 },
+                "down": { "texture": "#piston_top", "uv": [ 6, 0, 10, 16 ] }
+            }
+        }
+    ]
+}

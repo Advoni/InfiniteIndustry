@@ -1,0 +1,10 @@
+{
+  "parent": "infiniteindustry:custom/piston_extended",
+  "textures": {
+    "all": "infiniteindustry:blocks/piston_side",
+    "particle": "infiniteindustry:blocks/piston_side",
+    "side": "infiniteindustry:blocks/piston_side",
+    "bottom": "infiniteindustry:blocks/piston_bottom",
+    "inside": "infiniteindustry:blocks/piston_inner"
+  }
+}

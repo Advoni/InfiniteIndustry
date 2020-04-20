@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "piston_side": "piston_side",
+        "piston_top": "piston_top",
+        "piston_bottom": "piston_bottom"
+      },
+      "name": "default"
+    }
+  }
+}

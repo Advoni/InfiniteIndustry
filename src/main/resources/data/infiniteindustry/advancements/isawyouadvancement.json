@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "infiniteindustry:unknown_element",
+            "item": "infiniteindustry:sawmill",
             "count": {
               "min": 0,
               "max": 40
@@ -34,7 +34,7 @@
   "rewards": {
     "experience": 0,
     "loot": [
-      "unknown_element"
+      "infiniteindustry:isawyoureward"
     ]
   }
 }

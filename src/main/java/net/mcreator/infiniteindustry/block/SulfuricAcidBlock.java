@@ -1,0 +1,48 @@
+
+package net.mcreator.infiniteindustry.block;
+
+@InfiniteIndustryElements.ModElement.Tag
+public class SulfuricAcidBlock extends InfiniteIndustryElements.ModElement {
+
+	@ObjectHolder("infiniteindustry:sulfuricacid")
+	public static final FlowingFluidBlock block = null;
+
+	@ObjectHolder("infiniteindustry:sulfuricacid_bucket")
+	public static final Item bucket = null;
+
+	private FlowingFluid flowing = null;
+	private FlowingFluid still = null;
+	private ForgeFlowingFluid.Properties fluidproperties = null;
+
+	public SulfuricAcidBlock(InfiniteIndustryElements instance) {
+		super(instance, 68);
+
+		FMLJavaModLoadingContext.get().getModEventBus().register(this);
+	}
+
+	@SubscribeEvent
+	public void registerFluids(RegistryEvent.Register<Fluid> event) {
+		event.getRegistry().register(still);
+		event.getRegistry().register(flowing);
+	}
+
+	@Override
+	public void initElements() {
+		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
+				FluidAttributes.builder(new ResourceLocation("infiniteindustry:blocks/sulfuric_acid_still"),
+						new ResourceLocation("infiniteindustry:blocks/sulfuric_acid_flow")).luminosity(10).density(1830).viscosity(2157))
+								.bucket(() -> bucket).block(() -> block);
+
+		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("sulfuricacid");
+		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("sulfuricacid_flowing");
+
+		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.LAVA)) {
+
+		}.setRegistryName("sulfuricacid"));
+
+		elements.items.add(
+				() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(InfiniteIndustryItemGroup.tab))
+						.setRegistryName("sulfuricacid_bucket"));
+	}
+
+}
