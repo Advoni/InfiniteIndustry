@@ -921,6 +921,86 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "TungstenOreSmelting",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EndTungstenSmelting",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadOreSmelting",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlatinumOreSmelting",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UraniumOreSmelting",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SilverOreSmelting",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AluminumOreSmelting",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TitaniumPickaxe",
+      "type": "tool",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TitaniumPickaxeCrafting",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -947,6 +1027,7 @@
       "item.infiniteindustry.peridot": "Peridot",
       "item.infiniteindustry.bronzeingot": "Bronze Ingot",
       "item.infiniteindustry.copperingot": "Copper Ingot",
+      "item.infiniteindustry.titaniumpickaxe": "Titanium Pickaxe",
       "item.infiniteindustry.antimonyingot": "Antimony Ingot",
       "item.minecraft.potion.effect.test": "Test",
       "item.infiniteindustry.intelligentprocessor": "Intelligent Processor",
@@ -975,6 +1056,7 @@
       "block.infiniteindustry.netherchromiumore": "Nether Chromium Ore",
       "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
       "item.infiniteindustry.ruby": "Ruby",
+      "block.infiniteindustry.uraniumore": "Uranium Ore",
       "item.infiniteindustry.leaddust": "Lead Dust",
       "item.infiniteindustry.ultimateprocessor": "Ultimate Processor",
       "fluid.sulfuricacid": "SulfuricAcid",

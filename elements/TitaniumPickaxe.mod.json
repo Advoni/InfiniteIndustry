@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "titanium_pickaxe",
+    "customModelName": "Normal",
+    "name": "Titanium Pickaxe",
+    "creativeTab": {
+      "value": "CUSTOM:InfiniteIndustry"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 14.0,
+    "attackSpeed": 1.6,
+    "enchantability": 2,
+    "damageVsEntity": 6.0,
+    "usageCount": 2534,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

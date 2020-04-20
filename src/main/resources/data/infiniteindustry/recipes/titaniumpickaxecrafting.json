@@ -1,0 +1,30 @@
+{
+  "group": "infiniteindustry",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "infiniteindustry:titaniumingot"
+    },
+    "1": {
+      "item": "infiniteindustry:titaniumingot"
+    },
+    "2": {
+      "item": "infiniteindustry:titaniumingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "infiniteindustry:titaniumpickaxe",
+    "count": 1
+  }
+}
