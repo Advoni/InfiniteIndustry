@@ -654,7 +654,7 @@
       "type": "fluid",
       "sortid": 68,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {}
     },
     {
@@ -1037,6 +1037,126 @@
           }
         ]
       }
+    },
+    {
+      "name": "IronGear",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronPlate",
+      "type": "item",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldGearCrafting",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OilBucket",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BloodBucket",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldPlate",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Bottle",
+      "type": "item",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BromineBottle",
+      "type": "item",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldStickCrafting",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrusherGUI",
+      "type": "gui",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SawmillGUI",
+      "type": "gui",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Crusher",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronGearCrafting",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldGear",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldStick",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1071,7 +1191,6 @@
       "item.infiniteindustry.titaniumingot": "Titanium Ingot",
       "item.infiniteindustry.cadmiumingot": "Cadmium Ingot",
       "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
-      "block.infiniteindustry.advancedpistonrodextended": "Advanced Piston Rod Extended",
       "item.infiniteindustry.ultimateprocessor": "Ultimate Processor",
       "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
       "block.infiniteindustry.magmasponge": "Magma Sponge",
@@ -1124,7 +1243,6 @@
       "block.infiniteindustry.tinore": "Tin Ore",
       "block.infiniteindustry.tungstenore": "Tungsten Ore",
       "block.infiniteindustry.peridotore": "Peridot Ore",
-      "item.infiniteindustry.sulfuricacidbucket": "Sulfuric Acid Bucket",
       "block.infiniteindustry.nethercoalore": "Nether Coal Ore",
       "block.infiniteindustry.spawnsulfurlake1": "Spawn Sulfur Lake1",
       "item.infiniteindustry.ironstick": "Iron Stick",

@@ -2,13 +2,13 @@
 package net.mcreator.infiniteindustry.item;
 
 @InfiniteIndustryElements.ModElement.Tag
-public class SulfuricAcidBucketItem extends InfiniteIndustryElements.ModElement {
+public class BromineBottleItem extends InfiniteIndustryElements.ModElement {
 
-	@ObjectHolder("infiniteindustry:sulfuricacidbucket")
+	@ObjectHolder("infiniteindustry:brominebottle")
 	public static final Item block = null;
 
-	public SulfuricAcidBucketItem(InfiniteIndustryElements instance) {
-		super(instance, 118);
+	public BromineBottleItem(InfiniteIndustryElements instance) {
+		super(instance, 123);
 	}
 
 	@Override
@@ -19,8 +19,8 @@ public class SulfuricAcidBucketItem extends InfiniteIndustryElements.ModElement 
 	public static class ItemCustom extends Item {
 
 		public ItemCustom() {
-			super(new Item.Properties().group(InfiniteIndustryItemGroup.tab).maxStackSize(1));
-			setRegistryName("sulfuricacidbucket");
+			super(new Item.Properties().group(InfiniteIndustryItemGroup.tab).maxStackSize(64));
+			setRegistryName("brominebottle");
 		}
 
 		@Override

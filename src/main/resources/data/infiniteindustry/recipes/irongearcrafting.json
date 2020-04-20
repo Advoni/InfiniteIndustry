@@ -1,0 +1,27 @@
+{
+  "group": "infiniteindustry",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "infiniteindustry:ironstick"
+    },
+    "3": {
+      "item": "infiniteindustry:ironstick"
+    },
+    "5": {
+      "item": "infiniteindustry:ironstick"
+    },
+    "7": {
+      "item": "infiniteindustry:ironstick"
+    }
+  },
+  "result": {
+    "item": "infiniteindustry:irongear",
+    "count": 1
+  }
+}

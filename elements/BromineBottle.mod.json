@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ironstick",
+    "texture": "bromine_bottle",
     "customModelName": "Normal",
-    "name": "Iron Stick",
+    "name": "Bromine Bottle",
     "creativeTab": {
       "value": "CUSTOM:InfiniteIndustry"
     },

@@ -1,26 +1,11 @@
 package net.mcreator.infiniteindustry.procedures;
 
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.player.PlayerInteractEvent;
-import net.minecraftforge.common.MinecraftForge;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.RayTraceContext;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.block.Blocks;
-
-import net.mcreator.infiniteindustry.block.SulfuricAcidBlock;
-import net.mcreator.infiniteindustry.InfiniteIndustryElements;
-
 @InfiniteIndustryElements.ModElement.Tag
 public class BucketUseProcedure extends InfiniteIndustryElements.ModElement {
+
 	public BucketUseProcedure(InfiniteIndustryElements instance) {
 		super(instance, 119);
+
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -33,8 +18,10 @@ public class BucketUseProcedure extends InfiniteIndustryElements.ModElement {
 			System.err.println("Failed to load dependency world for procedure BucketUse!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		World world = (World) dependencies.get("world");
+
 		double goThrough = 0;
 		if ((new ItemStack(Items.BUCKET, (int) (1))
 				.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
@@ -98,6 +85,7 @@ public class BucketUseProcedure extends InfiniteIndustryElements.ModElement {
 				}
 			}
 		}
+
 	}
 
 	@SubscribeEvent
@@ -116,4 +104,5 @@ public class BucketUseProcedure extends InfiniteIndustryElements.ModElement {
 		dependencies.put("event", event);
 		this.executeProcedure(dependencies);
 	}
+
 }

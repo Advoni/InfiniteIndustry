@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ironstick",
+    "texture": "iron_gear",
     "customModelName": "Normal",
-    "name": "Iron Stick",
+    "name": "Iron Gear",
     "creativeTab": {
       "value": "CUSTOM:InfiniteIndustry"
     },

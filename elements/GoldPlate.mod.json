@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ironstick",
+    "texture": "gold_plate",
     "customModelName": "Normal",
-    "name": "Iron Stick",
+    "name": "Gold Plate",
     "creativeTab": {
       "value": "CUSTOM:InfiniteIndustry"
     },

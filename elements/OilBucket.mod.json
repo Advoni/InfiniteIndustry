@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ironstick",
+    "texture": "bucket_oil",
     "customModelName": "Normal",
-    "name": "Iron Stick",
+    "name": "Oil Bucket",
     "creativeTab": {
       "value": "CUSTOM:InfiniteIndustry"
     },
