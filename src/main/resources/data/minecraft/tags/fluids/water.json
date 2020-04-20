@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "infiniteindustry:sulfuricacid",
+    "infiniteindustry:sulfuricacid_flowing"
+  ]
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "infiniteindustry:custom/extended_advanced_piston_rod",
+  "textures": {
+    "all": "infiniteindustry:blocks/advanced_piston_rod",
+    "particle": "infiniteindustry:blocks/advanced_piston_rod",
+    "advanced_piston_rod": "infiniteindustry:blocks/advanced_piston_rod",
+    "advanced_pisten_big_rod": "infiniteindustry:blocks/advanced_pisten_big_rod"
+  }
+}

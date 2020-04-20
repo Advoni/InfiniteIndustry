@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "infiniteindustry:block/advancedpistonrodextended"
+    },
+    "facing=east": {
+      "model": "infiniteindustry:block/advancedpistonrodextended",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "infiniteindustry:block/advancedpistonrodextended",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "infiniteindustry:block/advancedpistonrodextended",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "infiniteindustry:block/advancedpistonrodextended",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "infiniteindustry:block/advancedpistonrodextended",
+      "x": 90
+    }
+  }
+}

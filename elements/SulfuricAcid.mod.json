@@ -9,8 +9,8 @@
     "density": 1830,
     "viscosity": 2157,
     "isGas": false,
-    "type": "LAVA",
-    "generateBucket": true,
+    "type": "WATER",
+    "generateBucket": false,
     "creativeTab": {
       "value": "CUSTOM:InfiniteIndustry"
     },
