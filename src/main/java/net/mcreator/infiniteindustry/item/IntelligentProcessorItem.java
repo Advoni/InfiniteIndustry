@@ -1,12 +1,19 @@
 
 package net.mcreator.infiniteindustry.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.infiniteindustry.itemgroup.InfiniteIndustryItemGroup;
+import net.mcreator.infiniteindustry.InfiniteIndustryElements;
+
 @InfiniteIndustryElements.ModElement.Tag
 public class IntelligentProcessorItem extends InfiniteIndustryElements.ModElement {
-
 	@ObjectHolder("infiniteindustry:intelligentprocessor")
 	public static final Item block = null;
-
 	public IntelligentProcessorItem(InfiniteIndustryElements instance) {
 		super(instance, 63);
 	}
@@ -15,9 +22,7 @@ public class IntelligentProcessorItem extends InfiniteIndustryElements.ModElemen
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(InfiniteIndustryItemGroup.tab).maxStackSize(64));
 			setRegistryName("intelligentprocessor");
@@ -37,7 +42,5 @@ public class IntelligentProcessorItem extends InfiniteIndustryElements.ModElemen
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }

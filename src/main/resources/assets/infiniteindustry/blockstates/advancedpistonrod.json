@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "infiniteindustry:block/advancedpistonrod"
+    },
+    "facing=east": {
+      "model": "infiniteindustry:block/advancedpistonrod",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "infiniteindustry:block/advancedpistonrod",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "infiniteindustry:block/advancedpistonrod",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "infiniteindustry:block/advancedpistonrod",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "infiniteindustry:block/advancedpistonrod",
+      "x": 90
+    }
+  }
+}

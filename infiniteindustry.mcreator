@@ -556,52 +556,188 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "HotMagmaSpongeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotMagmaSpongeFuel",
+      "type": "fuel",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SulfuricAcid",
+      "type": "fluid",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Test",
+      "type": "potion",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SulfurLake",
+      "type": "structure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpawnSulfurLake1UpdateTick",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnSulfurLake1",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdvancedPiston",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancedpistonbody"
+    },
+    {
+      "name": "AdvancedPistonBlock",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdvancedPistonRod",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.minecraft.tipped_arrow.effect.test": "Arrow of Test",
       "block.infiniteindustry.copperore": "Copper Ore",
       "item.infiniteindustry.aluminumingot": "Aluminum Ingot",
       "item.infiniteindustry.platinumingot": "Platinum Ingot",
+      "block.infiniteindustry.advancedpistonrod": "Advanced Piston Rod",
       "item.infiniteindustry.aquamarine": "Aquamarine",
+      "item.infiniteindustry.refinedprocessor": "Refined Processor",
       "item.infiniteindustry.obsidiandust": "Obsidian Dust",
       "item.infiniteindustry.copperdust": "Copper Dust",
       "item.infiniteindustry.peridot": "Peridot",
+      "item.infiniteindustry.bronzeingot": "Bronze Ingot",
       "item.infiniteindustry.copperingot": "Copper Ingot",
       "item.infiniteindustry.antimonyingot": "Antimony Ingot",
+      "item.minecraft.potion.effect.test": "Test",
+      "item.infiniteindustry.intelligentprocessor": "Intelligent Processor",
+      "effect.test": "Test",
+      "block.infiniteindustry.windturbine": "Wind Turbine",
       "block.infiniteindustry.rubyore": "Ruby Ore",
       "item.infiniteindustry.sapphire": "Sapphire",
       "block.infiniteindustry.sapphireore": "Sapphire Ore",
       "item.infiniteindustry.aluminumdust": "Aluminum Dust",
+      "item.infiniteindustry.basicprocessor": "Basic Processor",
+      "block.infiniteindustry.endindiumore": "End Indium Ore",
       "block.infiniteindustry.leadore": "Lead Ore",
+      "block.infiniteindustry.alloysmelter": "Alloy Smelter",
       "block.infiniteindustry.hotmagmasponge": "Hot Magma Sponge",
       "itemGroup.tabinfiniteindustry": "Infinite Industry",
-      "block.infiniteindustry.nethercadmiumore": "Nether Cadmium Ore",
-      "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
       "item.infiniteindustry.goldbroadsword": "Gold Broadsword",
+      "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
+      "block.infiniteindustry.nethercadmiumore": "Nether Cadmium Ore",
+      "item.minecraft.splash_potion.effect.test": "Splash Test",
+      "item.minecraft.lingering_potion.effect.test": "Lingering Test",
       "item.infiniteindustry.silverdust": "Silver Dust",
       "block.infiniteindustry.netherchromiumore": "Nether Chromium Ore",
       "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
       "item.infiniteindustry.ruby": "Ruby",
       "item.infiniteindustry.leaddust": "Lead Dust",
+      "item.infiniteindustry.ultimateprocessor": "Ultimate Processor",
+      "fluid.sulfuricacid": "SulfuricAcid",
       "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
       "block.infiniteindustry.peridotore": "Peridot Ore",
       "block.infiniteindustry.magmasponge": "Magma Sponge",
       "block.infiniteindustry.aluminumore": "Aluminum Ore",
       "block.infiniteindustry.nethergoldore": "Nether Gold Ore",
+      "block.infiniteindustry.spawnsulfurlake1": "Spawn Sulfur Lake1",
+      "advancements.advancedsmeltingadvancement.title": "Advanced Smelting",
+      "advancements.isawyouadvancement.descr": "Craft a \"Sawmill\"",
+      "item.infiniteindustry.sulfuricacid_bucket": "SulfuricAcid Bucket",
       "item.infiniteindustry.leadingot": "Lead Ingot",
+      "block.infiniteindustry.sawmill": "Sawmill",
+      "advancements.isawyouadvancement.title": "I Saw You ",
       "block.infiniteindustry.nethersilverore": "Nether Silver Ore",
+      "item.infiniteindustry.tiningot": "Tin Ingot",
+      "advancements.advancedsmeltingadvancement.descr": "Craft an \"Alloy Smelter\"",
       "block.infiniteindustry.platinumore": "Platinum Ore",
+      "item.infiniteindustry.advancedprocessor": "Advanced Processor",
       "item.infiniteindustry.chromiumingot": "Chromium Ingot",
       "block.infiniteindustry.silverore": "Silver Ore",
+      "block.infiniteindustry.advancedpistonblock": "Advanced Piston",
       "item.infiniteindustry.pearl": "Pearl",
       "item.infiniteindustry.nickelingot": "Nickel Ingot",
       "block.infiniteindustry.netherplatinumore": "Nether Platinum Ore",
+      "block.infiniteindustry.advancedpistonbody": "Advanced Piston Body",
       "item.infiniteindustry.silveringot": "Silver Ingot",
       "item.infiniteindustry.uraniumingot": "Uranium Ingot",
-      "item.infiniteindustry.platinumdust": "Platinum Dust"
+      "item.infiniteindustry.platinumdust": "Platinum Dust",
+      "item.infiniteindustry.enhancedprocessor": "Enhanced Processor"
     }
   },
   "workspaceSettings": {

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "piston_side",
+        "bottom": "piston_bottom",
+        "inside": "piston_inner"
+      },
+      "name": "default"
+    }
+  }
+}

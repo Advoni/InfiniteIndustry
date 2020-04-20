@@ -1,0 +1,8 @@
+{
+  "parent": "infiniteindustry:custom/advancedpistonrod",
+  "textures": {
+    "all": "infiniteindustry:blocks/piston_inner",
+    "particle": "infiniteindustry:blocks/piston_inner",
+    "piston_top": "infiniteindustry:blocks/piston_top"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 6,
+  "_type": "fluid",
+  "definition": {
+    "name": "SulfuricAcid",
+    "textureStill": "sulfuric_acid_still",
+    "textureFlowing": "sulfuric_acid_flow",
+    "luminosity": 10,
+    "density": 1830,
+    "viscosity": 2157,
+    "isGas": false,
+    "type": "LAVA",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:InfiniteIndustry"
+    },
+    "spawnWorldTypes": []
+  }
+}

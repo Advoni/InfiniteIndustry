@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infiniteindustry:blocks/emptyobject",
+    "up": "infiniteindustry:blocks/emptyobject",
+    "north": "infiniteindustry:blocks/emptyobject",
+    "east": "infiniteindustry:blocks/emptyobject",
+    "south": "infiniteindustry:blocks/emptyobject",
+    "west": "infiniteindustry:blocks/emptyobject",
+    "particle": "infiniteindustry:blocks/emptyobject"
+  }
+}
