@@ -1,18 +1,32 @@
 
 package net.mcreator.infiniteindustry.potion;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.RegistryEvent;
+
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.EffectType;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effect;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+
+import net.mcreator.infiniteindustry.InfiniteIndustryElements;
+
+import java.util.List;
+import java.util.ArrayList;
+
 @InfiniteIndustryElements.ModElement.Tag
 public class TestPotion extends InfiniteIndustryElements.ModElement {
-
 	@ObjectHolder("infiniteindustry:test")
 	public static final Effect potion = null;
-
 	@ObjectHolder("infiniteindustry:test")
 	public static final Potion potionType = null;
-
 	public TestPotion(InfiniteIndustryElements instance) {
 		super(instance, 69);
-
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -25,20 +39,15 @@ public class TestPotion extends InfiniteIndustryElements.ModElement {
 	public void registerPotion(RegistryEvent.Register<Potion> event) {
 		event.getRegistry().register(new PotionCustom());
 	}
-
 	public static class PotionCustom extends Potion {
-
 		public PotionCustom() {
 			super(new EffectInstance(potion, 3600));
 			setRegistryName("test");
 		}
-
 	}
 
 	public static class EffectCustom extends Effect {
-
 		private final ResourceLocation potionIcon;
-
 		public EffectCustom() {
 			super(EffectType.NEUTRAL, -1);
 			setRegistryName("test");
@@ -81,7 +90,5 @@ public class TestPotion extends InfiniteIndustryElements.ModElement {
 		public boolean isReady(int duration, int amplifier) {
 			return true;
 		}
-
 	}
-
 }

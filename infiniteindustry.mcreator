@@ -665,14 +665,70 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "advancedpistonbody"
+    },
+    {
+      "name": "AlloySmelterGUI",
+      "type": "gui",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TinOreSmelting",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CobaltIngot",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NetherCobaltSmelting",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CadmiumIngot",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NetherCadmiumSmelting",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.infiniteindustry.copperore": "Copper Ore",
       "item.minecraft.tipped_arrow.effect.test": "Arrow of Test",
+      "block.infiniteindustry.copperore": "Copper Ore",
       "item.infiniteindustry.aluminumingot": "Aluminum Ingot",
       "item.infiniteindustry.platinumingot": "Platinum Ingot",
       "block.infiniteindustry.advancedpistonrod": "Advanced Piston Rod",
@@ -701,15 +757,18 @@
       "item.infiniteindustry.goldbroadsword": "Gold Broadsword",
       "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
       "block.infiniteindustry.nethercadmiumore": "Nether Cadmium Ore",
+      "item.infiniteindustry.cobaltingot": "Cobalt Ingot",
       "item.minecraft.splash_potion.effect.test": "Splash Test",
       "item.minecraft.lingering_potion.effect.test": "Lingering Test",
       "item.infiniteindustry.silverdust": "Silver Dust",
+      "item.infiniteindustry.cadmiumingot": "Cadmium Ingot",
       "block.infiniteindustry.netherchromiumore": "Nether Chromium Ore",
       "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
       "item.infiniteindustry.ruby": "Ruby",
       "item.infiniteindustry.leaddust": "Lead Dust",
       "item.infiniteindustry.ultimateprocessor": "Ultimate Processor",
       "fluid.sulfuricacid": "SulfuricAcid",
+      "block.infiniteindustry.tinore": "Tin Ore",
       "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
       "block.infiniteindustry.peridotore": "Peridot Ore",
       "block.infiniteindustry.magmasponge": "Magma Sponge",
@@ -733,7 +792,7 @@
       "item.infiniteindustry.pearl": "Pearl",
       "item.infiniteindustry.nickelingot": "Nickel Ingot",
       "block.infiniteindustry.netherplatinumore": "Nether Platinum Ore",
-      "block.infiniteindustry.advancedpistonbody": "Advanced Piston Body",
+      "block.infiniteindustry.advancedpistonbody": "Advanced Piston",
       "item.infiniteindustry.silveringot": "Silver Ingot",
       "item.infiniteindustry.uraniumingot": "Uranium Ingot",
       "item.infiniteindustry.platinumdust": "Platinum Dust",

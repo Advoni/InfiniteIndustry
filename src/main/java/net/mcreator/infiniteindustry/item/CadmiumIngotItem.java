@@ -11,11 +11,11 @@ import net.mcreator.infiniteindustry.itemgroup.InfiniteIndustryItemGroup;
 import net.mcreator.infiniteindustry.InfiniteIndustryElements;
 
 @InfiniteIndustryElements.ModElement.Tag
-public class TinIngotItem extends InfiniteIndustryElements.ModElement {
-	@ObjectHolder("infiniteindustry:tiningot")
+public class CadmiumIngotItem extends InfiniteIndustryElements.ModElement {
+	@ObjectHolder("infiniteindustry:cadmiumingot")
 	public static final Item block = null;
-	public TinIngotItem(InfiniteIndustryElements instance) {
-		super(instance, 53);
+	public CadmiumIngotItem(InfiniteIndustryElements instance) {
+		super(instance, 80);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class TinIngotItem extends InfiniteIndustryElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(InfiniteIndustryItemGroup.tab).maxStackSize(64));
-			setRegistryName("tiningot");
+			setRegistryName("cadmiumingot");
 		}
 
 		@Override

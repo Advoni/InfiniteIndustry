@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "tin_ingot",
+    "texture": "cadmium_ingot",
     "customModelName": "Normal",
-    "name": "Tin Ingot",
+    "name": "Cadmium Ingot",
     "creativeTab": {
       "value": "CUSTOM:InfiniteIndustry"
     },

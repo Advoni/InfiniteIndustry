@@ -2,7 +2,7 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "silverore2",
+    "texture": "tin_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Silver Ore",
+    "name": "Tin Ore",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 30.0,
@@ -80,73 +80,15 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "mountains"
-      },
-      {
-        "value": "taiga"
-      },
-      {
-        "value": "river"
-      },
-      {
-        "value": "swamp"
-      },
-      {
-        "value": "plains"
-      },
-      {
-        "value": "bamboo_jungle"
-      },
-      {
-        "value": "badlands"
-      },
-      {
-        "value": "snowy_tundra"
-      },
-      {
-        "value": "mushroom_fields"
-      },
-      {
-        "value": "deep_ocean"
-      },
-      {
-        "value": "birch_forest_hills"
-      },
-      {
-        "value": "forest_hills"
-      },
-      {
-        "value": "jungle_hills"
-      },
-      {
-        "value": "mushroom_fields"
-      },
-      {
-        "value": "deep_lukewarm_ocean"
-      },
-      {
-        "value": "jungle_edge"
-      },
-      {
-        "value": "jungle"
-      },
-      {
-        "value": "roofed_forest"
-      },
-      {
-        "value": "mutated_redwood_taiga"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 6,
-    "minGenerateHeight": 5,
-    "maxGenerateHeight": 45
+    "frequencyPerChunks": 9,
+    "frequencyOnChunk": 5,
+    "minGenerateHeight": 15,
+    "maxGenerateHeight": 40
   }
 }

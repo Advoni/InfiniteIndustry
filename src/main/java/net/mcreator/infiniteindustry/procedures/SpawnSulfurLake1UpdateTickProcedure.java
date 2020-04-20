@@ -1,11 +1,22 @@
 package net.mcreator.infiniteindustry.procedures;
 
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.gen.feature.template.Template;
+import net.minecraft.world.gen.feature.template.PlacementSettings;
+import net.minecraft.world.World;
+import net.minecraft.util.math.ChunkPos;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Rotation;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.Mirror;
+import net.minecraft.block.Blocks;
+
+import net.mcreator.infiniteindustry.InfiniteIndustryElements;
+
 @InfiniteIndustryElements.ModElement.Tag
 public class SpawnSulfurLake1UpdateTickProcedure extends InfiniteIndustryElements.ModElement {
-
 	public SpawnSulfurLake1UpdateTickProcedure(InfiniteIndustryElements instance) {
 		super(instance, 71);
-
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -25,12 +36,10 @@ public class SpawnSulfurLake1UpdateTickProcedure extends InfiniteIndustryElement
 			System.err.println("Failed to load dependency world for procedure SpawnSulfurLake1UpdateTick!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		if ((((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == Blocks.LAVA.getDefaultState().getBlock())
 				|| (((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z))).getBlock() == Blocks.LAVA.getDefaultState().getBlock())
 						|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.LAVA.getDefaultState()
@@ -52,7 +61,5 @@ public class SpawnSulfurLake1UpdateTickProcedure extends InfiniteIndustryElement
 				}
 			}
 		}
-
 	}
-
 }
