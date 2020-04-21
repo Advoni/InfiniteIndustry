@@ -8,14 +8,19 @@ import net.minecraftforge.fluids.FluidAttributes;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FlowingFluid;
+import net.minecraft.entity.Entity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.FlowingFluidBlock;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.infiniteindustry.procedures.AcidInAJarOnPotionActiveTickProcedure;
 import net.mcreator.infiniteindustry.InfiniteIndustryElements;
 
 @InfiniteIndustryElements.ModElement.Tag
@@ -47,6 +52,18 @@ public class SulfuricAcidBlock extends InfiniteIndustryElements.ModElement {
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("sulfuricacid");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("sulfuricacid_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.BARRIER)) {
+			@Override
+			public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
+				super.onEntityCollision(state, world, pos, entity);
+				int x = pos.getX();
+				int y = pos.getY();
+				int z = pos.getZ();
+				{
+					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					$_dependencies.put("entity", entity);
+					AcidInAJarOnPotionActiveTickProcedure.executeProcedure($_dependencies);
+				}
+			}
 		}.setRegistryName("sulfuricacid"));
 	}
 }
