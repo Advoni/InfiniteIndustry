@@ -63,6 +63,7 @@ public class SulfuricAcidBucketItem extends InfiniteIndustryElements.ModElement 
 			ItemStack itemstack = context.getItem();
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("direction", direction);
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);

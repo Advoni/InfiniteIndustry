@@ -654,7 +654,7 @@
       "type": "fluid",
       "sortid": 68,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
@@ -1180,6 +1180,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
             "name": "entity",
             "type": "entity"
           },
@@ -1207,9 +1211,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.infiniteindustry.endtitaniumore": "End Titanium Ore",
-      "block.infiniteindustry.copperore": "Copper Ore",
       "item.infiniteindustry.bloodbucket": "Blood Bucket",
+      "block.infiniteindustry.copperore": "Copper Ore",
+      "block.infiniteindustry.endtitaniumore": "End Titanium Ore",
       "item.infiniteindustry.platinumingot": "Platinum Ingot",
       "block.infiniteindustry.advancedpistonrod": "Advanced Piston Rod",
       "item.infiniteindustry.aquamarine": "Aquamarine",
@@ -1231,8 +1235,8 @@
       "block.infiniteindustry.sapphireore": "Sapphire Ore",
       "item.infiniteindustry.bottle": "Bottle",
       "block.infiniteindustry.leadore": "Lead Ore",
-      "block.infiniteindustry.nethercadmiumore": "Nether Cadmium Ore",
       "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
+      "block.infiniteindustry.nethercadmiumore": "Nether Cadmium Ore",
       "item.infiniteindustry.cobaltingot": "Cobalt Ingot",
       "item.minecraft.splash_potion.effect.test": "Splash Test",
       "item.infiniteindustry.ironplate": "Iron Plate",

@@ -46,7 +46,7 @@ public class SulfuricAcidBlock extends InfiniteIndustryElements.ModElement {
 								.block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("sulfuricacid");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("sulfuricacid_flowing");
-		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.GLASS)) {
+		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.BARRIER)) {
 		}.setRegistryName("sulfuricacid"));
 	}
 }

@@ -111,9 +111,8 @@ public class BucketUseProcedure extends InfiniteIndustryElements.ModElement {
 						}
 						world.setBlockState(new BlockPos((int) (BlockX), (int) (BlockY), (int) (BlockZ)), Blocks.AIR.getDefaultState(), 3);
 						goThrough = (double) 0;
-					} else {
-						goThrough = (double) ((goThrough) - 1);
 					}
+					goThrough = (double) ((goThrough) - 1);
 				} else {
 					goThrough = (double) 0;
 				}
