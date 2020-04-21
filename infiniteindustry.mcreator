@@ -1205,6 +1205,86 @@
           }
         ]
       }
+    },
+    {
+      "name": "DiamondDrill",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StoneDrill",
+      "type": "tool",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronDrill",
+      "type": "tool",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldDrill",
+      "type": "tool",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldAxe",
+      "type": "tool",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SapphireAxe",
+      "type": "tool",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldAxeCrafting",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SapphireAxeCrafting",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RubyAxeCrafting",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1240,13 +1320,16 @@
       "item.infiniteindustry.cobaltingot": "Cobalt Ingot",
       "item.minecraft.splash_potion.effect.test": "Splash Test",
       "item.infiniteindustry.ironplate": "Iron Plate",
+      "item.infiniteindustry.irondrill": "Iron Drill",
       "item.infiniteindustry.titaniumingot": "Titanium Ingot",
+      "item.infiniteindustry.golddrill": "Gold Drill",
       "item.infiniteindustry.cadmiumingot": "Cadmium Ingot",
       "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
       "block.infiniteindustry.advancedpistonrodextended": "Advanced Piston Rod Extended",
       "item.infiniteindustry.ultimateprocessor": "Ultimate Processor",
       "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
       "item.infiniteindustry.goldplate": "Gold Plate",
+      "item.infiniteindustry.stonedrill": "Stone Drill",
       "block.infiniteindustry.magmasponge": "Magma Sponge",
       "block.infiniteindustry.aluminumore": "Aluminum Ore",
       "item.infiniteindustry.phosphorus": "Phosphorus",
@@ -1268,6 +1351,7 @@
       "block.infiniteindustry.advancedpistonblock": "Advanced Piston",
       "block.infiniteindustry.advancedpistonbody": "Advanced Piston",
       "block.infiniteindustry.ironcasing": "Iron Casing",
+      "item.infiniteindustry.emeraldaxe": "Emerald Axe",
       "block.infiniteindustry.crusher": "Crusher",
       "item.infiniteindustry.platinumdust": "Platinum Dust",
       "item.infiniteindustry.enhancedprocessor": "Enhanced Processor",
@@ -1299,6 +1383,7 @@
       "item.infiniteindustry.leaddust": "Lead Dust",
       "fluid.sulfuricacid": "SulfuricAcid",
       "block.infiniteindustry.tinore": "Tin Ore",
+      "item.infiniteindustry.diamonddrill": "Diamond Drill",
       "block.infiniteindustry.tungstenore": "Tungsten Ore",
       "block.infiniteindustry.peridotore": "Peridot Ore",
       "item.infiniteindustry.sulfuricacidbucket": "Sulfuric Acid Bucket",
@@ -1316,7 +1401,9 @@
       "item.infiniteindustry.brominebottle": "Bromine Bottle",
       "item.infiniteindustry.irondust": "Iron Dust",
       "item.infiniteindustry.silveringot": "Silver Ingot",
-      "item.infiniteindustry.uraniumingot": "Uranium Ingot"
+      "item.infiniteindustry.sapphireaxe": "Sapphire Axe",
+      "item.infiniteindustry.uraniumingot": "Uranium Ingot",
+      "item.infiniteindustry.rubyaxe": "Ruby Axe"
     }
   },
   "workspaceSettings": {

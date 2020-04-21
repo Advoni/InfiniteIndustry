@@ -1,0 +1,25 @@
+{
+  "group": "infiniteindustry",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infiniteindustry:ruby"
+    },
+    {
+      "item": "infiniteindustry:ruby"
+    },
+    {
+      "item": "infiniteindustry:ruby"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "infiniteindustry:rubyaxe",
+    "count": 1
+  }
+}

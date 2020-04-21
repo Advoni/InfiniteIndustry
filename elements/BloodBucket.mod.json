@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bucket_blood",
+    "texture": "blood_bucket",
     "customModelName": "Normal",
     "name": "Blood Bucket",
     "creativeTab": {
