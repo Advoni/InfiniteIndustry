@@ -1,0 +1,25 @@
+{
+  "group": "infiniteindustry",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infiniteindustry:sapphire"
+    },
+    {
+      "item": "infiniteindustry:sapphire"
+    },
+    {
+      "item": "infiniteindustry:sapphire"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "infiniteindustry:unknown_element",
+    "count": 1
+  }
+}

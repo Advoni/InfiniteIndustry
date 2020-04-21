@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "gold_drill",
+    "customModelName": "Normal",
+    "name": "Gold Drill",
+    "creativeTab": {
+      "value": "CUSTOM:InfiniteIndustry"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 0,
+    "efficiency": 13.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 2.0,
+    "usageCount": 532,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

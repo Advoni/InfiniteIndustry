@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "emerald_axe",
+    "customModelName": "Normal",
+    "name": "Emerald Axe",
+    "creativeTab": {
+      "value": "CUSTOM:InfiniteIndustry"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 8.0,
+    "usageCount": 1024,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

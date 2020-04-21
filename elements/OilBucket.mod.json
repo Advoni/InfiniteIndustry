@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bucket_oil",
+    "texture": "oil_bucket",
     "customModelName": "Normal",
     "name": "Oil Bucket",
     "creativeTab": {

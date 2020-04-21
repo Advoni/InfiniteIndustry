@@ -654,7 +654,7 @@
       "type": "fluid",
       "sortid": 68,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
@@ -1207,14 +1207,6 @@
       }
     },
     {
-      "name": "AcidInAJar",
-      "type": "potion",
-      "sortid": 133,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "AcidInAJarOnPotionActiveTick",
       "type": "procedure",
       "sortid": 134,
@@ -1229,15 +1221,103 @@
           }
         ]
       }
+    },
+    {
+      "name": "AcidInAJar",
+      "type": "potion",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SapphireAxeCrafting",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SapphireAxe",
+      "type": "tool",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronDrill",
+      "type": "tool",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldAxeCrafting",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RubyAxeCrafting",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldAxe",
+      "type": "tool",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StoneDrill",
+      "type": "tool",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiamondDrill",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldDrill",
+      "type": "tool",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.infiniteindustry.bloodbucket": "Blood Bucket",
-      "block.infiniteindustry.copperore": "Copper Ore",
       "block.infiniteindustry.endtitaniumore": "End Titanium Ore",
+      "block.infiniteindustry.copperore": "Copper Ore",
+      "item.infiniteindustry.bloodbucket": "Blood Bucket",
       "item.infiniteindustry.platinumingot": "Platinum Ingot",
       "block.infiniteindustry.advancedpistonrod": "Advanced Piston Rod",
       "item.infiniteindustry.aquamarine": "Aquamarine",
@@ -1254,14 +1334,13 @@
       "item.infiniteindustry.copperingot": "Copper Ingot",
       "item.infiniteindustry.titaniumpickaxe": "Titanium Pickaxe",
       "item.infiniteindustry.antimonyingot": "Antimony Ingot",
-      "item.minecraft.splash_potion.effect.acidinajar": "Splash Acid In A Jar",
       "block.infiniteindustry.windturbine": "Wind Turbine",
       "block.infiniteindustry.rubyore": "Ruby Ore",
       "block.infiniteindustry.sapphireore": "Sapphire Ore",
       "item.infiniteindustry.bottle": "Bottle",
       "block.infiniteindustry.leadore": "Lead Ore",
-      "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
       "block.infiniteindustry.nethercadmiumore": "Nether Cadmium Ore",
+      "block.infiniteindustry.nethercobaltore": "Nether Cobalt Ore",
       "item.infiniteindustry.cobaltingot": "Cobalt Ingot",
       "item.minecraft.splash_potion.effect.test": "Splash Test",
       "item.infiniteindustry.ironplate": "Iron Plate",
@@ -1280,7 +1359,6 @@
       "advancements.isawyouadvancement.descr": "Craft a \"Sawmill\"",
       "item.infiniteindustry.sulfuricacid_bucket": "SulfuricAcid Bucket",
       "block.infiniteindustry.antimonyore": "Antimony Ore",
-      "item.minecraft.lingering_potion.effect.acidinajar": "Lingering Acid In A Jar",
       "item.infiniteindustry.leadingot": "Lead Ingot",
       "item.infiniteindustry.goldgear": "Gold Gear",
       "advancements.isawyouadvancement.title": "I Saw You ",
@@ -1292,14 +1370,12 @@
       "item.infiniteindustry.arsenic": "Arsenic",
       "block.infiniteindustry.silverore": "Silver Ore",
       "block.infiniteindustry.advancedpistonblock": "Advanced Piston",
-      "effect.acidinajar": "Acid In A Jar",
       "block.infiniteindustry.advancedpistonbody": "Advanced Piston",
       "block.infiniteindustry.ironcasing": "Iron Casing",
       "block.infiniteindustry.crusher": "Crusher",
       "item.infiniteindustry.platinumdust": "Platinum Dust",
       "item.infiniteindustry.enhancedprocessor": "Enhanced Processor",
       "item.infiniteindustry.golddust": "Gold Dust",
-      "item.minecraft.tipped_arrow.effect.acidinajar": "Arrow of Acid In A Jar",
       "item.minecraft.tipped_arrow.effect.test": "Arrow of Test",
       "item.infiniteindustry.aluminumingot": "Aluminum Ingot",
       "item.infiniteindustry.goldstick": "Gold Stick",
@@ -1308,7 +1384,6 @@
       "item.infiniteindustry.bronzeingot": "Bronze Ingot",
       "item.infiniteindustry.irongear": "Iron Gear",
       "item.minecraft.potion.effect.test": "Test",
-      "item.minecraft.potion.effect.acidinajar": "Acid In A Jar",
       "item.infiniteindustry.intelligentprocessor": "Intelligent Processor",
       "effect.test": "Test",
       "item.infiniteindustry.sapphire": "Sapphire",
