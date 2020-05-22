@@ -1,10 +1,9 @@
 {
-  "parent": "infiniteindustry:custom/advancedpistonextendedabit",
+  "parent": "infiniteindustry:custom/advancedpistontop",
   "textures": {
     "all": "infiniteindustry:blocks/piston_inner",
     "particle": "infiniteindustry:blocks/piston_inner",
     "piston_side": "infiniteindustry:blocks/piston_side",
-    "advanced_pisten_big_rod": "infiniteindustry:blocks/advanced_pisten_big_rod",
     "piston_top": "infiniteindustry:blocks/piston_top"
   }
 }

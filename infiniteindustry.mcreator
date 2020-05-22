@@ -1309,6 +1309,194 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "AdvancedPistonTop",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdvancedPistonTopBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancedpistonroddestroyedbyplayer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancedPistonTopBlockDestroyedByPlayerBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancedPistonTopBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancedPistonRodBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancedPistonBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AdvancedPistonRodBlockDestroyedByPlayerRedstoneOn",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancedPistonRedstoneOff",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1334,6 +1522,7 @@
       "item.infiniteindustry.copperingot": "Copper Ingot",
       "item.infiniteindustry.titaniumpickaxe": "Titanium Pickaxe",
       "item.infiniteindustry.antimonyingot": "Antimony Ingot",
+      "item.minecraft.splash_potion.effect.acidinajar": "Splash Acid In A Jar",
       "block.infiniteindustry.windturbine": "Wind Turbine",
       "block.infiniteindustry.rubyore": "Ruby Ore",
       "block.infiniteindustry.sapphireore": "Sapphire Ore",
@@ -1344,13 +1533,16 @@
       "item.infiniteindustry.cobaltingot": "Cobalt Ingot",
       "item.minecraft.splash_potion.effect.test": "Splash Test",
       "item.infiniteindustry.ironplate": "Iron Plate",
+      "item.infiniteindustry.irondrill": "Iron Drill",
       "item.infiniteindustry.titaniumingot": "Titanium Ingot",
+      "item.infiniteindustry.golddrill": "Gold Drill",
       "item.infiniteindustry.cadmiumingot": "Cadmium Ingot",
       "item.infiniteindustry.obsidianpickaxe": "Obsidian Pickaxe",
       "block.infiniteindustry.advancedpistonrodextended": "Advanced Piston Rod Extended",
       "item.infiniteindustry.ultimateprocessor": "Ultimate Processor",
       "item.infiniteindustry.obsidianingot": "Obsidian Ingot",
       "item.infiniteindustry.goldplate": "Gold Plate",
+      "item.infiniteindustry.stonedrill": "Stone Drill",
       "block.infiniteindustry.magmasponge": "Magma Sponge",
       "block.infiniteindustry.aluminumore": "Aluminum Ore",
       "item.infiniteindustry.phosphorus": "Phosphorus",
@@ -1359,6 +1551,7 @@
       "advancements.isawyouadvancement.descr": "Craft a \"Sawmill\"",
       "item.infiniteindustry.sulfuricacid_bucket": "SulfuricAcid Bucket",
       "block.infiniteindustry.antimonyore": "Antimony Ore",
+      "item.minecraft.lingering_potion.effect.acidinajar": "Lingering Acid In A Jar",
       "item.infiniteindustry.leadingot": "Lead Ingot",
       "item.infiniteindustry.goldgear": "Gold Gear",
       "advancements.isawyouadvancement.title": "I Saw You ",
@@ -1370,20 +1563,25 @@
       "item.infiniteindustry.arsenic": "Arsenic",
       "block.infiniteindustry.silverore": "Silver Ore",
       "block.infiniteindustry.advancedpistonblock": "Advanced Piston",
+      "effect.acidinajar": "Acid In A Jar",
       "block.infiniteindustry.advancedpistonbody": "Advanced Piston",
       "block.infiniteindustry.ironcasing": "Iron Casing",
+      "item.infiniteindustry.emeraldaxe": "Emerald Axe",
       "block.infiniteindustry.crusher": "Crusher",
       "item.infiniteindustry.platinumdust": "Platinum Dust",
       "item.infiniteindustry.enhancedprocessor": "Enhanced Processor",
       "item.infiniteindustry.golddust": "Gold Dust",
+      "item.minecraft.tipped_arrow.effect.acidinajar": "Arrow of Acid In A Jar",
       "item.minecraft.tipped_arrow.effect.test": "Arrow of Test",
       "item.infiniteindustry.aluminumingot": "Aluminum Ingot",
+      "block.infiniteindustry.advancedpistontop": "Advanced Piston Top",
       "item.infiniteindustry.goldstick": "Gold Stick",
       "block.infiniteindustry.endtungstenore": "End Tungsten Ore",
       "item.infiniteindustry.copperdust": "Copper Dust",
       "item.infiniteindustry.bronzeingot": "Bronze Ingot",
       "item.infiniteindustry.irongear": "Iron Gear",
       "item.minecraft.potion.effect.test": "Test",
+      "item.minecraft.potion.effect.acidinajar": "Acid In A Jar",
       "item.infiniteindustry.intelligentprocessor": "Intelligent Processor",
       "effect.test": "Test",
       "item.infiniteindustry.sapphire": "Sapphire",
@@ -1403,6 +1601,7 @@
       "item.infiniteindustry.leaddust": "Lead Dust",
       "fluid.sulfuricacid": "SulfuricAcid",
       "block.infiniteindustry.tinore": "Tin Ore",
+      "item.infiniteindustry.diamonddrill": "Diamond Drill",
       "block.infiniteindustry.tungstenore": "Tungsten Ore",
       "block.infiniteindustry.peridotore": "Peridot Ore",
       "item.infiniteindustry.sulfuricacidbucket": "Sulfuric Acid Bucket",
@@ -1420,7 +1619,9 @@
       "item.infiniteindustry.brominebottle": "Bromine Bottle",
       "item.infiniteindustry.irondust": "Iron Dust",
       "item.infiniteindustry.silveringot": "Silver Ingot",
-      "item.infiniteindustry.uraniumingot": "Uranium Ingot"
+      "item.infiniteindustry.sapphireaxe": "Sapphire Axe",
+      "item.infiniteindustry.uraniumingot": "Uranium Ingot",
+      "item.infiniteindustry.rubyaxe": "Ruby Axe"
     }
   },
   "workspaceSettings": {

@@ -6,10 +6,13 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
+import net.minecraft.world.Explosion;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
@@ -21,13 +24,16 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
+import net.minecraft.fluid.IFluidState;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.DirectionalBlock;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.infiniteindustry.itemgroup.InfiniteIndustryItemGroup;
+import net.mcreator.infiniteindustry.procedures.AdvancedPistonTopBlockDestroyedByPlayerBlockDestroyedByPlayerProcedure;
 import net.mcreator.infiniteindustry.InfiniteIndustryElements;
 
 import java.util.List;
@@ -44,13 +50,12 @@ public class AdvancedPistonRodExtendedBlock extends InfiniteIndustryElements.Mod
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(InfiniteIndustryItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PISTON).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.PISTON).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("advancedpistonrodextended");
 		}
@@ -58,7 +63,7 @@ public class AdvancedPistonRodExtendedBlock extends InfiniteIndustryElements.Mod
 		@OnlyIn(Dist.CLIENT)
 		@Override
 		public BlockRenderLayer getRenderLayer() {
-			return BlockRenderLayer.TRANSLUCENT;
+			return BlockRenderLayer.CUTOUT;
 		}
 
 		@Override
@@ -76,17 +81,17 @@ public class AdvancedPistonRodExtendedBlock extends InfiniteIndustryElements.Mod
 			switch ((Direction) state.get(FACING)) {
 				case SOUTH :
 				default :
-					return VoxelShapes.create(0.75D, 0.25D, 1.75D, 0.25D, 0.75D, -0.25D);
+					return VoxelShapes.create(0.71875D, 0.28125D, 1.75D, 0.28125D, 0.71875D, -0.25D);
 				case NORTH :
-					return VoxelShapes.create(0.25D, 0.25D, -0.75D, 0.75D, 0.75D, 1.25D);
+					return VoxelShapes.create(0.28125D, 0.28125D, -0.75D, 0.71875D, 0.71875D, 1.25D);
 				case WEST :
-					return VoxelShapes.create(-0.75D, 0.25D, 0.75D, 1.25D, 0.75D, 0.25D);
+					return VoxelShapes.create(-0.75D, 0.28125D, 0.71875D, 1.25D, 0.71875D, 0.28125D);
 				case EAST :
-					return VoxelShapes.create(1.75D, 0.25D, 0.25D, -0.25D, 0.75D, 0.75D);
+					return VoxelShapes.create(1.75D, 0.28125D, 0.28125D, -0.25D, 0.71875D, 0.71875D);
 				case UP :
-					return VoxelShapes.create(0.25D, 1.75D, 0.25D, 0.75D, -0.25D, 0.75D);
+					return VoxelShapes.create(0.28125D, 1.75D, 0.28125D, 0.71875D, -0.25D, 0.71875D);
 				case DOWN :
-					return VoxelShapes.create(0.25D, -0.75D, 0.75D, 0.75D, 1.25D, 0.25D);
+					return VoxelShapes.create(0.28125D, -0.75D, 0.71875D, 0.71875D, 1.25D, 0.28125D);
 			}
 		}
 
@@ -109,11 +114,49 @@ public class AdvancedPistonRodExtendedBlock extends InfiniteIndustryElements.Mod
 		}
 
 		@Override
+		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
+			return new ItemStack(AdvancedPistonBlockBlock.block, (int) (1));
+		}
+
+		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(Blocks.AIR, (int) (1)));
+		}
+
+		@Override
+		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, IFluidState fluid) {
+			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				AdvancedPistonTopBlockDestroyedByPlayerBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
+			}
+			return retval;
+		}
+
+		@Override
+		public void onExplosionDestroy(World world, BlockPos pos, Explosion e) {
+			super.onExplosionDestroy(world, pos, e);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				AdvancedPistonTopBlockDestroyedByPlayerBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

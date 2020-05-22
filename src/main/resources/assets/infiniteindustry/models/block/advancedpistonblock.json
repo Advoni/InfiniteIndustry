@@ -1,5 +1,5 @@
 {
-  "parent": "infiniteindustry:custom/advancedpistonblock",
+  "parent": "infiniteindustry:custom/advancedpiston2",
   "textures": {
     "all": "infiniteindustry:blocks/piston_top",
     "particle": "infiniteindustry:blocks/piston_top",

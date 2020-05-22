@@ -2,25 +2,25 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "advanced_pisten_big_rod",
+    "texture": "piston_inner",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "extendedadvancedpistonrod2:default",
+    "customModelName": "advancedpistontop:default",
     "rotationMode": 2,
     "hasTransparency": true,
     "transparencyType": "SOLID",
-    "mx": 0.28125,
-    "my": 0.28125,
-    "mz": -0.75,
-    "Mx": 0.71875,
-    "My": 0.71875,
-    "Mz": 1.25,
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 0.25,
     "faceShape": "SOLID",
-    "name": "Advanced Piston Rod Extended",
+    "name": "Advanced Piston Top",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -78,10 +78,10 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "onDestroyedByPlayer": {
-      "name": "AdvancedPistonTopBlockDestroyedByPlayerBlockDestroyedByPlayer"
+      "name": "AdvancedPistonTopBlockDestroyedByExplosion"
     },
     "onDestroyedByExplosion": {
-      "name": "AdvancedPistonTopBlockDestroyedByPlayerBlockDestroyedByPlayer"
+      "name": "AdvancedPistonTopBlockDestroyedByExplosion"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

@@ -1,0 +1,32 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "advanced_piston_rod": "minecraft:blocks/advanced_piston_rod",
+        "advanced_pisten_big_rod": "minecraft:blocks/advanced_pisten_big_rod"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 6, 6, -12 ], 
+            "to": [ 10, 10, 4 ], 
+            "faces": {
+                "east": { "texture": "#advanced_piston_rod", "uv": [ 0, 0, 16, 4 ] },
+                "west": { "texture": "#advanced_piston_rod", "uv": [ 0, 0, 16, 4 ], "rotation": 180 },
+                "up": { "texture": "#advanced_piston_rod", "uv": [ 0, 0, 16, 4 ], "rotation": 270 },
+                "down": { "texture": "#advanced_piston_rod", "uv": [ 0, 0, 16, 4 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 4.5, 4.5, 4 ], 
+            "to": [ 11.5, 11.5, 20 ], 
+            "faces": {
+                "north": { "texture": "#advanced_pisten_big_rod", "uv": [ 0, 7, 7, 14 ] },
+                "east": { "texture": "#advanced_pisten_big_rod", "uv": [ 0, 0, 16, 7 ], "rotation": 180 },
+                "west": { "texture": "#advanced_pisten_big_rod", "uv": [ 0, 0, 16, 7 ] },
+                "up": { "texture": "#advanced_pisten_big_rod", "uv": [ 0, 0, 16, 7 ], "rotation": 90 },
+                "down": { "texture": "#advanced_pisten_big_rod", "uv": [ 0, 0, 16, 7 ], "rotation": 270 }
+            }
+        }
+    ]
+}

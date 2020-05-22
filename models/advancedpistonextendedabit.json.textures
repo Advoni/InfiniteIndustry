@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "piston_side": "piston_side",
+        "advanced_pisten_big_rod": "advanced_pisten_big_rod",
+        "piston_top": "piston_top"
+      },
+      "name": "default"
+    }
+  }
+}

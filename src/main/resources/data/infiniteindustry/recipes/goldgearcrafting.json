@@ -8,20 +8,20 @@
   ],
   "key": {
     "1": {
-      "item": "infiniteindustry:unknown_element"
+      "item": "infiniteindustry:goldstick"
     },
     "3": {
-      "item": "infiniteindustry:unknown_element"
+      "item": "infiniteindustry:goldstick"
     },
     "5": {
-      "item": "infiniteindustry:unknown_element"
+      "item": "infiniteindustry:goldstick"
     },
     "7": {
-      "item": "infiniteindustry:unknown_element"
+      "item": "infiniteindustry:goldstick"
     }
   },
   "result": {
-    "item": "infiniteindustry:unknown_element",
+    "item": "infiniteindustry:goldgear",
     "count": 1
   }
 }

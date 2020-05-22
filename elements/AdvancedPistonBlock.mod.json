@@ -9,7 +9,7 @@
     "textureRight": "piston_side",
     "textureBack": "piston_side",
     "renderType": 2,
-    "customModelName": "advancedpistonblock:default",
+    "customModelName": "advancedpiston2:default",
     "rotationMode": 2,
     "hasTransparency": true,
     "transparencyType": "SOLID",
@@ -56,7 +56,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -69,14 +69,20 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "inventorySize": 0,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
+    "onTickUpdate": {
+      "name": "AdvancedPistonBlockUpdateTick"
+    },
+    "onRedstoneOn": {
+      "name": "AdvancedPistonRodBlockDestroyedByPlayerRedstoneOn"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "advanced_piston_rod": "advanced_piston_rod",
+        "advanced_pisten_big_rod": "advanced_pisten_big_rod"
+      },
+      "name": "default"
+    }
+  }
+}

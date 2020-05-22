@@ -33,18 +33,18 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.infiniteindustry.procedures.AdvancedPistonTopBlockDestroyedByPlayerProcedure;
+import net.mcreator.infiniteindustry.procedures.AdvancedPistonTopBlockDestroyedByExplosionProcedure;
 import net.mcreator.infiniteindustry.InfiniteIndustryElements;
 
 import java.util.List;
 import java.util.Collections;
 
 @InfiniteIndustryElements.ModElement.Tag
-public class AdvancedPistonRodBlock extends InfiniteIndustryElements.ModElement {
-	@ObjectHolder("infiniteindustry:advancedpistonrod")
+public class AdvancedPistonTopBlock extends InfiniteIndustryElements.ModElement {
+	@ObjectHolder("infiniteindustry:advancedpistontop")
 	public static final Block block = null;
-	public AdvancedPistonRodBlock(InfiniteIndustryElements instance) {
-		super(instance, 74);
+	public AdvancedPistonTopBlock(InfiniteIndustryElements instance) {
+		super(instance, 143);
 	}
 
 	@Override
@@ -57,7 +57,7 @@ public class AdvancedPistonRodBlock extends InfiniteIndustryElements.ModElement 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.PISTON).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("advancedpistonrod");
+			setRegistryName("advancedpistontop");
 		}
 
 		@OnlyIn(Dist.CLIENT)
@@ -81,17 +81,17 @@ public class AdvancedPistonRodBlock extends InfiniteIndustryElements.ModElement 
 			switch ((Direction) state.get(FACING)) {
 				case SOUTH :
 				default :
-					return VoxelShapes.create(1D, 0D, 1D, 0D, 1D, -0.25D);
+					return VoxelShapes.create(1D, 0D, 1D, 0D, 1D, 0.75D);
 				case NORTH :
-					return VoxelShapes.create(0D, 0D, 0D, 1D, 1D, 1.25D);
+					return VoxelShapes.create(0D, 0D, 0D, 1D, 1D, 0.25D);
 				case WEST :
-					return VoxelShapes.create(0D, 0D, 1D, 1.25D, 1D, 0D);
+					return VoxelShapes.create(0D, 0D, 1D, 0.25D, 1D, 0D);
 				case EAST :
-					return VoxelShapes.create(1D, 0D, 0D, -0.25D, 1D, 1D);
+					return VoxelShapes.create(1D, 0D, 0D, 0.75D, 1D, 1D);
 				case UP :
-					return VoxelShapes.create(0D, 1D, 0D, 1D, -0.25D, 1D);
+					return VoxelShapes.create(0D, 1D, 0D, 1D, 0.75D, 1D);
 				case DOWN :
-					return VoxelShapes.create(0D, 0D, 1D, 1D, 1.25D, 0D);
+					return VoxelShapes.create(0D, 0D, 1D, 1D, 0.25D, 0D);
 			}
 		}
 
@@ -138,7 +138,7 @@ public class AdvancedPistonRodBlock extends InfiniteIndustryElements.ModElement 
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				AdvancedPistonTopBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
+				AdvancedPistonTopBlockDestroyedByExplosionProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}
@@ -155,7 +155,7 @@ public class AdvancedPistonRodBlock extends InfiniteIndustryElements.ModElement 
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				AdvancedPistonTopBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
+				AdvancedPistonTopBlockDestroyedByExplosionProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}
