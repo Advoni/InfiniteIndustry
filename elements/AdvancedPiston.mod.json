@@ -83,6 +83,9 @@
     "onDestroyedByExplosion": {
       "name": "AdvancedPistonRodBlockDestroyedByPlayer"
     },
+    "onRedstoneOn": {
+      "name": "AdvancedPistonRedstoneOn"
+    },
     "onRedstoneOff": {
       "name": "AdvancedPistonRedstoneOff"
     },

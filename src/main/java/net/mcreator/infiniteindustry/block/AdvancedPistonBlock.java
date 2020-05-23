@@ -51,6 +51,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.infiniteindustry.procedures.AdvancedPistonRodBlockDestroyedByPlayerProcedure;
+import net.mcreator.infiniteindustry.procedures.AdvancedPistonRedstoneOnProcedure;
 import net.mcreator.infiniteindustry.procedures.AdvancedPistonRedstoneOffProcedure;
 import net.mcreator.infiniteindustry.InfiniteIndustryElements;
 
@@ -159,6 +160,14 @@ public class AdvancedPistonBlock extends InfiniteIndustryElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
+				{
+					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					AdvancedPistonRedstoneOnProcedure.executeProcedure($_dependencies);
+				}
 			} else {
 				{
 					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();

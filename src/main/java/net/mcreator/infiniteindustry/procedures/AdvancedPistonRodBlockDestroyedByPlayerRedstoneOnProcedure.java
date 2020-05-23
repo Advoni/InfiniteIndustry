@@ -1,15 +1,21 @@
 package net.mcreator.infiniteindustry.procedures;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Direction;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.state.IProperty;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.infiniteindustry.block.AdvancedPistonRodBlock;
 import net.mcreator.infiniteindustry.block.AdvancedPistonBlock;
 import net.mcreator.infiniteindustry.InfiniteIndustryElements;
 
@@ -42,7 +48,6 @@ public class AdvancedPistonRodBlockDestroyedByPlayerRedstoneOnProcedure extends 
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		String rotation = "";
 		double count = 0;
 		double DU = 0;
 		double NS = 0;
@@ -132,7 +137,7 @@ public class AdvancedPistonRodBlockDestroyedByPlayerRedstoneOnProcedure extends 
 																	.getMaterial() == Material.SNOW)
 															|| (((world.getBlockState(new BlockPos((int) (x + ((WE) * (13 - (count)))),
 																	(int) (y + ((DU) * (13 - (count)))), (int) (z + ((NS) * (13 - (count)))))))
-																			.getMaterial() == Material.ROCK)
+																			.getMaterial() == Material.SNOW_BLOCK)
 																	|| (((world.getBlockState(new BlockPos((int) (x + ((WE) * (13 - (count)))),
 																			(int) (y + ((DU) * (13 - (count)))),
 																			(int) (z + ((NS) * (13 - (count))))))).getMaterial() == Material.CACTUS)
@@ -166,13 +171,64 @@ public class AdvancedPistonRodBlockDestroyedByPlayerRedstoneOnProcedure extends 
 						}
 					}
 				}
+				while (((count) < 12)) {
+					world.setBlockState(
+							new BlockPos((int) (x + ((WE) * (13 - (count)))), (int) (y + ((DU) * (13 - (count)))),
+									(int) (z + ((NS) * (13 - (count))))),
+							(world.getBlockState(new BlockPos((int) (x + ((WE) * (12 - (count)))), (int) (y + ((DU) * (12 - (count)))),
+									(int) (z + ((NS) * (12 - (count))))))),
+							3);
+					try {
+						BlockState _bs = world.getBlockState(new BlockPos((int) (x + ((WE) * (13 - (count)))), (int) (y + ((DU) * (13 - (count)))),
+								(int) (z + ((NS) * (13 - (count))))));
+						world.setBlockState(
+								new BlockPos((int) (x + ((WE) * (13 - (count)))), (int) (y + ((DU) * (13 - (count)))),
+										(int) (z + ((NS) * (13 - (count))))),
+								_bs.with((DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing"), (new Object() {
+									public Direction getDirection(BlockPos pos) {
+										try {
+											BlockState _bs = world.getBlockState(pos);
+											DirectionProperty property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
+											return _bs.get(property);
+										} catch (Exception e) {
+											return Direction.NORTH;
+										}
+									}
+								}.getDirection(new BlockPos((int) (x + ((WE) * (12 - (count)))), (int) (y + ((DU) * (12 - (count)))),
+										(int) (z + ((NS) * (12 - (count)))))))),
+								3);
+					} catch (Exception e) {
+					}
+					count = (double) ((count) + 1);
+				}
+				world.setBlockState(new BlockPos((int) (x + ((WE) * 1)), (int) (y + ((DU) * 1)), (int) (z + ((NS) * 1))),
+						AdvancedPistonRodBlock.block.getDefaultState(), 3);
+				try {
+					BlockState _bs = world.getBlockState(new BlockPos((int) (x + ((WE) * 1)), (int) (y + ((DU) * 1)), (int) (z + ((NS) * 1))));
+					world.setBlockState(new BlockPos((int) (x + ((WE) * 1)), (int) (y + ((DU) * 1)), (int) (z + ((NS) * 1))),
+							_bs.with((DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing"), (new Object() {
+								public Direction getDirection(BlockPos pos) {
+									try {
+										BlockState _bs = world.getBlockState(pos);
+										DirectionProperty property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
+										return _bs.get(property);
+									} catch (Exception e) {
+										return Direction.NORTH;
+									}
+								}
+							}.getDirection(new BlockPos((int) x, (int) y, (int) z)))), 3);
+				} catch (Exception e) {
+				}
+				world.playSound((PlayerEntity) null, x, y, z,
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.piston.extend")),
+						SoundCategory.NEUTRAL, (float) 1, (float) 1);
 				break;
 			} else if (((world
 					.getBlockState(new BlockPos((int) (x + ((WE) * (13 - (count)))), (int) (y + ((DU) * (13 - (count)))),
 							(int) (z + ((NS) * (13 - (count))))))
 					.getBlock().getHarvestLevel(world.getBlockState(new BlockPos((int) (x + ((WE) * (13 - (count)))),
-							(int) (y + ((DU) * (13 - (count)))), (int) (z + ((NS) * (13 - (count)))))))) > 3)) {
-				count = (double) 0;
+							(int) (y + ((DU) * (13 - (count)))), (int) (z + ((NS) * (13 - (count)))))))) > 2)) {
+				break;
 			} else {
 				count = (double) ((count) - 1);
 			}
